@@ -1,32 +1,260 @@
+/* Global Styles */
+@import url("https://fonts.googleapis.com/css?family=Roboto:200,400,700");
+
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0px;
+}
+
 .App {
   text-align: center;
+  font-family: 'Roboto', sans-serif;
+  display: block;
+  transition: background-color 0.5s ease;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.section {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+/* Transitions */
+
+.bg-color-white {
+  background-color: white;
+}
+
+.bg-color-black {
+  background-color: black;
+}
+
+.color-white {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.color-black {
+  color: black;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.display-none {
+  opacity: 0;
+}
+
+/* Main */
+
+.main {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Titles */
+
+.main .info .title {
+  font-size: 80px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main .info .title .framer {
+  padding-right: 30px;
+  font-weight: 700;
+}
+
+.main .info .title .react {
+  padding-left: 30px;
+  font-weight: 700;
+}
+
+.main .info .subtitle {
+  font-weight: 400;
+  font-size: 34px;
+  margin-top: 7px;
+  letter-spacing: 2px;
+}
+
+.main .info .tags {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.main .info .tags .tag {
+  width: 140px;
+  height: 22px;
+  border-radius: 42px;
+  background-color: #0053FF;
+  font-size: 18px;
+  font-weight: 700;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 7px;
+  margin-right: 7px;
+}
+
+/* Scroll */
+
+.scroll {
+  position: fixed;
+  display: inline-flex;
+  bottom: 69px;
+}
+
+.scroll .mouse {
+  position: fixed;
+  bottom: 60px;
+  width: 36px;
+  height: 36px;
+  margin-left: auto;
+  margin-right: auto;
+  transform: translateX(-15px);
+  transition: opacity 0.2s ease;
+}
+
+.scroll .mouse .mousecircle {
+  position: relative;
+  width: 36px;
+  height: 36px;
+}
+
+@keyframes bounce {
+  from {bottom: 32px;}
+  to {bottom: 40px;}
+}
+
+.scroll .mouse .mousescroll {
+  position: relative;
+  width: 36px;
+  height: 36px;
+  animation: bounce 0.6s infinite alternate;
+}
+
+.scroll .scrolltext {
+  margin-left: 28px;
+  color: #0053FF;
+  font-size: 16px;
+  transition: opacity 0.2s ease;
+}
+
+/* About */
+
+.menus .about {
+  position: fixed;
+  top: 60px;
+  right: 60px;
+  height: 40px;
+  width: 100px;
+  border-radius: 40px;
+  color: #0053FF;
+  background-color: rgba(0, 0, 0, 0);
+  font-size: 18px;
+  font-weight: 700;
+  border-color: #0053FF;
+  border-width: 2px;
+}
+
+.menus .about:hover {
+  color: white;
+  background-color: #0053FF;
+  transition: 0.5s;
+}
+
+.menus .about:focus {
+  outline: none;
+}
+
+/* Side Menu */
+
+.menus .sidemenu {
+  position: fixed;
+  top: 56px;
+  left: 60px;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: left;
+}
+
+.menus .sidemenu .selected,
+.original {
+  margin-bottom: 4px;
+  padding-right: 60px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  transition: color 0.5s ease;
+}
+
+.menus .sidemenu .selected {
+  color: #0053FF;
+}
+
+.menus .sidemenu .selected::before {
+  content: "――― ";
+  color: #0053FF;
+}
+
+.menus .sidemenu .original:hover::before {
+  content: "――― ";
+}
+
+/* Copyright */
+.menus .copyright {
+  position: fixed;
+  left: 4px;
+  bottom: 112px;
+  color: #707070;
+  transform: rotate(-90deg);
+}
+
+/* iPhone */
+.iphone {
+  position: fixed;
+  left: 284px;
+  bottom: 60px;
+  height: 82vh;
+}
+
+/* Details */
+.section {
+  align-items: center;
+  display: flex;
+}
+
+.section .details {
+  position: absolute;
+  left: 660px;
+  width: 360px;
+  text-align: left;
+}
+
+.section .details .day {
+  font-weight: 700;
+  font-size: 20px;
+  margin: 0px;
+}
+
+.section .details .title {
+  font-weight: 700;
+  font-size: 40px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.section .details .description {
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.section .details .logo {
+  width: 40px;
+  height: 40px;
+  margin-top: 40px;
+  margin-right: 10px;
 }
