@@ -11,12 +11,14 @@ import iphone from './img/iphone.svg'
 
 class App extends Component {
   state = {
-    windowHeight: window.innerHeight
+    windowHeight: window.innerHeight,
+    currentMenu: {}
   }
 
   componentDidMount = () => {
     this.scrollAnimation()
-    this.sectionSize()
+    this.controlScroll()
+    this.selectMenu()
   }
 
   scrollAnimation = () => {
@@ -29,6 +31,7 @@ class App extends Component {
     let detailItems = document.querySelectorAll(".details")
     let details = [...detailItems]
     let windowHeight = this.state.windowHeight
+    let about = document.querySelector(".about")
 
     window.addEventListener('scroll', () => {
       let y = window.scrollY
@@ -43,9 +46,11 @@ class App extends Component {
         scroll.classList.add("display-none")
         scrollText.classList.add("display-none")
         iphone.classList.remove("display-none")
-        detailItems.forEach((detail) => {
+        details.forEach((detail) => {
           detail.classList.remove("display-none")
         })
+        about.classList.add("bg-color-white")
+        about.classList.remove("bg-color-trans")
       } else {
         app.classList.add("bg-color-black")
         app.classList.remove("bg-color-white")
@@ -57,14 +62,16 @@ class App extends Component {
         scroll.classList.remove("display-none")
         scrollText.classList.remove("display-none")
         iphone.classList.add("display-none")
-        detailItems.forEach((detail) => {
+        details.forEach((detail) => {
           detail.classList.add("display-none")
         })
+        about.classList.remove("bg-color-white")
+        about.classList.add("bg-color-trans")
       }
     })
   }
 
-  sectionSize = () => {
+  controlScroll = () => {
     let selectSections = document.querySelectorAll(".section")
     let sections = [...selectSections]
     let allSections = document.querySelector(".sections")
@@ -137,6 +144,58 @@ class App extends Component {
     })
   }
 
+  selectMenu = () => {
+    const menuItems = document.querySelectorAll(".menu-item")
+    const menus = [...menuItems]
+    const menuOne = document.querySelector(".menu-one")
+    const menuTwo = document.querySelector(".menu-two")
+    const menuThree = document.querySelector(".menu-three")
+    const menuFour = document.querySelector(".menu-four")
+    const menuFive = document.querySelector(".menu-five")
+    const menuSix = document.querySelector(".menu-six")
+    const menuSeven = document.querySelector(".menu-seven")
+    let windowHeight = this.state.windowHeight
+
+    this.setState({currentMenu: document.querySelector(".selected")})
+
+    menus.forEach((menu) => {
+      menu.addEventListener('click', () => {
+        let currentMenu = this.state.currentMenu
+        if (menu.classList.contains("original")) {
+          menu.classList.add("selected")
+          menu.classList.remove("original")
+          currentMenu.classList.add("original")
+          currentMenu.classList.remove("selected")
+          this.setState({currentMenu: menu})
+        } else {
+          return
+        }
+      })
+    })
+
+    menuOne.addEventListener('click', () => {
+      scroll.scrollTo(windowHeight*0, {duration: 1000})
+    })
+    menuTwo.addEventListener('click', () => {
+      scroll.scrollTo(windowHeight*1, {duration: 1000})
+    })
+    menuThree.addEventListener('click', () => {
+      scroll.scrollTo(windowHeight*2, {duration: 1000})
+    })
+    menuFour.addEventListener('click', () => {
+      scroll.scrollTo(windowHeight*3, {duration: 1000})
+    })
+    menuFive.addEventListener('click', () => {
+      scroll.scrollTo(windowHeight*4, {duration: 1000})
+    })
+    menuSix.addEventListener('click', () => {
+      scroll.scrollTo(windowHeight*5, {duration: 1000})
+    })
+    menuSeven.addEventListener('click', () => {
+      scroll.scrollTo(windowHeight*6, {duration: 1000})
+    })
+  }
+
   render() {
     return (
       <div className="App bg-color-black">
@@ -171,19 +230,22 @@ class App extends Component {
           <Section/>
           <Section/>
           <Section/>
+          <Section/>
+          <Section/>
+          <Section/>
         </div>
         <div className="menus">
           <div className="sidemenu">
-            <div className="selected">Home</div>
-            <div className="original color-white">01 - 05</div>
-            <div className="original color-white">06 - 10</div>
-            <div className="original color-white">11 - 15</div>
-            <div className="original color-white">16 - 20</div>
-            <div className="original color-white">21 - 25</div>
-            <div className="original color-white">25 - 30</div>
+            <div className="menu-item menu-one selected">Home</div>
+            <div className="menu-item menu-two original color-white">01 - 05</div>
+            <div className="menu-item menu-three original color-white">06 - 10</div>
+            <div className="menu-item menu-four original color-white">11 - 15</div>
+            <div className="menu-item menu-five original color-white">16 - 20</div>
+            <div className="menu-item menu-six original color-white">21 - 25</div>
+            <div className="menu-item menu-seven original color-white">25 - 30</div>
           </div>
           <div>
-            <button type="button" name="About" className="about">About</button>
+            <button type="button" name="About" className="about bg-color-trans">About</button>
           </div>
           <div className="copyright">
             © Anne Lee, 2018
