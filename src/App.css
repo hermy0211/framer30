@@ -213,14 +213,18 @@ html {
 }
 
 /* iPhone */
+
 .iphone {
   position: fixed;
-  left: 284px;
-  bottom: 60px;
-  height: 82vh;
+  left: calc(40% - 180px);
+  top: 0px;
+  margin-top: calc(50vh - 261px);
+  margin-bottom: calc(50vh - 261px);
+  width: 260px;
 }
 
 /* Details */
+
 .section {
   align-items: center;
   display: flex;
@@ -228,7 +232,7 @@ html {
 
 .section .details {
   position: absolute;
-  left: 660px;
+  left: calc(55%);
   width: 360px;
   text-align: left;
 }

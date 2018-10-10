@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import * as Scroll from 'react-scroll'
 import { Link, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 import './App.css'
+import './Responsive.css'
 import Section from './Section'
 import cross from './img/cross.png'
 import mouse from './img/mouse.svg'
@@ -139,6 +140,9 @@ class App extends Component {
   render() {
     return (
       <div className="App bg-color-black">
+        <div className="mobile">
+          <p>Please view this page on a PC.</p>
+        </div>
         <div className="sections">
           <section className="main section">
             <div className="info">
@@ -148,7 +152,7 @@ class App extends Component {
                 <div className="react">React</div>
               </div>
               <div className="subtitle">
-                A 30 Day Challenge
+                30 Prototypes in 30 Days
               </div>
               <div className="tags">
                 <div className="tag">#Framer30</div>

@@ -1,0 +1,29 @@
+/* Global Styles */
+@import url("https://fonts.googleapis.com/css?family=Roboto:200,400,700");
+
+@media screen and (max-width: 930px) {
+  .mobile {
+    background-color: black;
+    color: white;
+    height: 100vh;
+    font-weight: 700;
+    text-align: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .mobile p {
+    margin: 0 auto 0 auto;
+  }
+
+  .sections,
+  .menus {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 931px) {
+  .mobile {
+    display: none;
+  }
+}
