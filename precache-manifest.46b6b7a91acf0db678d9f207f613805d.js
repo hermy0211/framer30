@@ -16,19 +16,19 @@ self.__precacheManifest = [
     "url": "/framer30/static/js/runtime~main.9592f2ee.js"
   },
   {
-    "revision": "6cbf7ef0af3351c17d0f",
-    "url": "/framer30/static/js/main.6cbf7ef0.chunk.js"
+    "revision": "68fe250e6c9c7abb6495",
+    "url": "/framer30/static/js/main.68fe250e.chunk.js"
   },
   {
     "revision": "7d270582aa0f0fbaec15",
     "url": "/framer30/static/js/1.7d270582.chunk.js"
   },
   {
-    "revision": "6cbf7ef0af3351c17d0f",
-    "url": "/framer30/static/css/main.ac9476d5.chunk.css"
+    "revision": "68fe250e6c9c7abb6495",
+    "url": "/framer30/static/css/main.7fc12126.chunk.css"
   },
   {
-    "revision": "bede316882f7c0c0d334d37d3cfa591f",
+    "revision": "671dfdfc838c0fa35fd3e24389929d5e",
     "url": "/framer30/index.html"
   }
 ];
