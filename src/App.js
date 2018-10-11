@@ -8,6 +8,7 @@ import cross from './img/cross.png'
 import mouse from './img/mouse.svg'
 import mousescroll from './img/mousescroll.svg'
 import iphone from './img/iphone.svg'
+import close from './img/close.png'
 
 class App extends Component {
   state = {
@@ -16,7 +17,7 @@ class App extends Component {
 
   componentDidMount = () => {
     this.scrollAnimation()
-    this.sectionSize()
+    this.scrollInput()
 
     let menuItems = document.querySelectorAll(".menu-item")
     let elements = [...menuItems]
@@ -38,6 +39,7 @@ class App extends Component {
     let detailItems = document.querySelectorAll(".details")
     let details = [...detailItems]
     let windowHeight = this.state.windowHeight
+    let about = document.querySelector(".about")
 
     window.addEventListener('scroll', () => {
       let y = window.scrollY
@@ -55,6 +57,7 @@ class App extends Component {
         details.forEach((detail) => {
           detail.classList.remove("display-none")
         })
+        about.classList.add("bg-color-white")
       } else {
         app.classList.add("bg-color-black")
         app.classList.remove("bg-color-white")
@@ -69,11 +72,12 @@ class App extends Component {
         details.forEach((detail) => {
           detail.classList.add("display-none")
         })
+        about.classList.remove("bg-color-white")
       }
     })
   }
 
-  sectionSize = () => {
+  scrollInput = () => {
     let selectSections = document.querySelectorAll(".section")
     let sections = [...selectSections]
     let allSections = document.querySelector(".sections")
@@ -87,18 +91,7 @@ class App extends Component {
 
     allSections.style.height = windowHeight*(sections.length) + "px"
 
-    window.addEventListener('keydown', (event) => {
-      if(event.keyCode === 40) {
-        event.preventDefault()
-        scroll.scrollMore(windowHeight, {duration: 400})
-      } else if (event.keyCode === 38) {
-        event.preventDefault()
-        scroll.scrollMore(-windowHeight, {duration: 400})
-      } else if (event.keyCode === 32) {
-        event.preventDefault()
-      }
-    })
-
+    window.addEventListener('keydown', handleKeyPress)
     window.addEventListener('mousewheel', handleMouseWheel, false)
     window.addEventListener('DOMMouseScroll', handleMouseWheel, false)
 
@@ -117,12 +110,42 @@ class App extends Component {
         event.preventDefault()
       }
     }
+
+    function handleKeyPress (event) {
+      if(event.keyCode === 40) {
+        event.preventDefault()
+        scroll.scrollMore(windowHeight, {duration: 400})
+      } else if (event.keyCode === 38) {
+        event.preventDefault()
+        scroll.scrollMore(-windowHeight, {duration: 400})
+      } else if (event.keyCode === 32) {
+        event.preventDefault()
+      }
+    }
   }
 
   resetHeight = () => {
     window.addEventListener('resize', () => {
-      this.setState({windowHeight: window.innerHeight})
+      this.setState((state)=>({windowHeight: window.innerHeight}))
     })
+  }
+
+  openAbout = () => {
+    const popup = document.querySelector(".about-layer")
+    const sections = document.querySelector(".sections")
+    const menus = document.querySelector(".menus")
+    popup.classList.add("show")
+    sections.classList.add("hide")
+    menus.classList.add("hide")
+  }
+
+  closeAbout = () => {
+    const popup = document.querySelector(".about-layer")
+    const sections = document.querySelector(".sections")
+    const menus = document.querySelector(".menus")
+    popup.classList.remove("show")
+    sections.classList.remove("hide")
+    menus.classList.remove("hide")
   }
 
   render() {
@@ -185,69 +208,101 @@ class App extends Component {
             className="section"
           ><Section/></Element>
         </div>
-        <div className="menus">
-          <div className="sidemenu">
-            <Link
-              to="sectionOne"
-              activeClass="selected"
-              spy={true}
-              smooth={true}
-              duration={1000}
-              className="menu-item">
-              Home
-            </Link>
-            <Link
-              to="sectionTwo"
-              activeClass="selected"
-              spy={true}
-              smooth={true}
-              duration={1000}
-              className="menu-item">
-              01 - 05</Link>
-            <Link
-              to="sectionThree"
-              activeClass="selected"
-              spy={true}
-              smooth={true}
-              duration={1000}
-              className="menu-item">06 - 10</Link>
-            <Link
-              to="sectionFour"
-              activeClass="selected"
-              spy={true}
-              smooth={true}
-              duration={1000}
-              className="menu-item">11 - 15</Link>
-            <Link
-              to="sectionFive"
-              activeClass="selected"
-              spy={true}
-              smooth={true}
-              duration={1000}
-              className="menu-item">16 - 20</Link>
-            <Link
-              to="sectionSix"
-              activeClass="selected"
-              spy={true}
-              smooth={true}
-              duration={1000}
-              className="menu-item">21 - 25</Link>
-            <Link
-              to="sectionSeven"
-              activeClass="selected"
-              spy={true}
-              smooth={true}
-              duration={1000}
-              className="menu-item">25 - 30</Link>
+          <div className="menus">
+            <div className="sidemenu">
+              <Link
+                to="sectionOne"
+                activeClass="selected"
+                spy={true}
+                smooth={true}
+                duration={1000}
+                className="menu-item">
+                Home
+              </Link>
+              <Link
+                to="sectionTwo"
+                activeClass="selected"
+                spy={true}
+                smooth={true}
+                duration={1000}
+                className="menu-item">
+                01 - 05</Link>
+              <Link
+                to="sectionThree"
+                activeClass="selected"
+                spy={true}
+                smooth={true}
+                duration={1000}
+                className="menu-item">06 - 10</Link>
+              <Link
+                to="sectionFour"
+                activeClass="selected"
+                spy={true}
+                smooth={true}
+                duration={1000}
+                className="menu-item">11 - 15</Link>
+              <Link
+                to="sectionFive"
+                activeClass="selected"
+                spy={true}
+                smooth={true}
+                duration={1000}
+                className="menu-item">16 - 20</Link>
+              <Link
+                to="sectionSix"
+                activeClass="selected"
+                spy={true}
+                smooth={true}
+                duration={1000}
+                className="menu-item">21 - 25</Link>
+              <Link
+                to="sectionSeven"
+                activeClass="selected"
+                spy={true}
+                smooth={true}
+                duration={1000}
+                className="menu-item">25 - 30</Link>
+            </div>
+            <div>
+              <button type="button" name="About" className="about" onClick={this.openAbout}>About</button>
+            </div>
+            <div className="copyright">
+              © Anne Lee, 2018
+            </div>
           </div>
-          <div>
-            <button type="button" name="About" className="about">About</button>
+          <img src={iphone} className="iphone display-none" alt="iphone"/>
+        <div className="about-layer overlay">
+          <div className="introduction">
+            <div className="introduction-inner">
+              <p className="title">
+                My name is Anne and<br/>
+                I am a Product Designer.<br/><br/>
+              </p>
+              <p className="description">
+                30 Days of Framer is a<br/>
+                prototyping project<br/>
+                in which I create<br/>
+                30 Framer X prototypes<br/>
+                throughout 30 days.
+              </p>
+              <p className="credit">
+                Inspired by Tony Jing
+              </p>
+            </div>
           </div>
-          <div className="copyright">
-            © Anne Lee, 2018
+          <div className="connect">
+            <div className="connect-inner">
+              <p className="connect-title">
+                Connect with Me
+              </p>
+              <a href="https://www.linkedin.com/in/annesohyunlee/" target="_blank" rel="noopener noreferrer" className="social">Linkedin</a>
+              <a href="https://www.instagram.com/coding.designer.__/" target="_blank" rel="noopener noreferrer" className="social">Instagram</a>
+              <a href="https://medium.com/@annelee_22736" target="_blank" rel="noopener noreferrer" className="social">Medium</a>
+              <a href="mailto:hermy0211@naver.com" target="_blank" rel="noopener noreferrer" className="social">Email</a>
+            </div>
           </div>
+          <button onClick={this.closeAbout} className="close" tabIndex="-1"><img src={close} alt="close"/></button>
         </div>
-        <img src={iphone} className="iphone display-none" alt="iphone"/>
       </div>
     );
   }

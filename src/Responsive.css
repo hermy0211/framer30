@@ -17,7 +17,8 @@
   }
 
   .sections,
-  .menus {
+  .menus,
+  .about-layer {
     display: none;
   }
 }

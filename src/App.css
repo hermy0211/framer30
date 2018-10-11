@@ -1,11 +1,6 @@
 /* Global Styles */
 @import url("https://fonts.googleapis.com/css?family=Roboto:200,400,700");
 
-html {
-    overflow: scroll;
-    overflow-x: hidden;
-}
-
 ::-webkit-scrollbar {
     width: 0px;
 }
@@ -21,6 +16,7 @@ html {
   -khtml-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
+  overflow-x: hidden;
 }
 
 .section {
@@ -37,19 +33,19 @@ html {
 /* Transitions */
 
 .bg-color-white {
-  background-color: white;
+  background-color: white !important;
 }
 
 .bg-color-black {
-  background-color: black;
+  background-color: black !important;
 }
 
 .color-white {
-  color: white;
+  color: white !important;
 }
 
 .color-black {
-  color: black;
+  color: black !important;
 }
 
 .display-none {
@@ -170,16 +166,19 @@ html {
   font-weight: 700;
   border-color: #0053FF;
   border-width: 2px;
+  transition: background-color 0.5s ease;
 }
 
 .menus .about:hover {
   color: white;
-  background-color: #0053FF;
+  background-color: #0053FF !important;
   transition: 0.5s;
 }
 
 .menus .about:focus {
   outline: none;
+  color: white;
+  background-color: #0053FF !important;
 }
 
 /* Side Menu */
@@ -277,4 +276,135 @@ html {
   height: 40px;
   margin-top: 40px;
   margin-right: 10px;
+}
+
+/* About Layer */
+
+.about-layer {
+  position: fixed;
+  z-index: 100;
+  width: calc(100% - 100px);
+  height: calc(100vh - 100px);
+  left: 50px;
+  top: 50px;
+  background-color: white;
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.2);
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.about-layer .introduction {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  left: 0px;
+  background-color: #0053FF;
+  color: white;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-layer .introduction .introduction-inner {
+  width: 310px;
+}
+
+.about-layer .introduction .introduction-inner .title {
+  font-weight: 700;
+  font-size: 28px;
+  margin: 0px 0px 20px 0px;
+}
+
+.about-layer .introduction .introduction-inner .description {
+  font-weight: 200;
+  font-size: 28px;
+  margin: 0px 0px 50px 0px;
+}
+
+.about-layer .introduction .introduction-inner .credit {
+  font-weight: 200;
+  font-size: 14px;
+  margin: 0;
+}
+
+.about-layer .connect {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  right: 0px;
+  background-color: white;
+  color: #0053FF;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-layer .connect .connect-inner {
+  width: 310px;
+  height: 350px;
+}
+
+.about-layer .connect .connect-inner .connect-title {
+  font-weight: 700;
+  font-size: 28px;
+  margin: 0px 0px 86px 0px;
+}
+
+.about-layer .connect .connect-inner a {
+  display: block;
+  color: #0053FF;
+  text-decoration-line: none;
+  font-size: 28px;
+  margin-bottom: 11px;
+  font-weight: 700;
+}
+
+.about-layer .connect .connect-inner a:focus {
+  outline: none;
+}
+
+.about-layer .connect .connect-inner a:focus::before {
+  content: "―― ";
+  color: #0053FF;
+  outline: none;
+}
+
+.about-layer .connect .connect-inner a:hover {
+  cursor: pointer;
+}
+
+.about-layer .connect .connect-inner a:hover::before {
+  content: "―― ";
+  color: #0053FF;
+}
+
+.about-layer button {
+  width: 50px;
+  height: 50px;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  background-color: rgba(0,0,0,0);
+}
+
+.about-layer button:focus {
+  outline: none;
+}
+
+.about-layer .close {
+  position: absolute;
+  right: 30px;
+  top: 30px;
+}
+
+.show {
+ 	visibility: visible !important;
+ 	opacity: 100 !important;
+ }
+
+.hide {
+  visibility: hidden !important;
 }
