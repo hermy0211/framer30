@@ -5,6 +5,7 @@ html {
     overflow: scroll;
     overflow-x: hidden;
 }
+
 ::-webkit-scrollbar {
     width: 0px;
 }
@@ -28,6 +29,11 @@ html {
   width: 100%;
 }
 
+.inner-section {
+  height: 100vh;
+  width: 100%;
+}
+
 /* Transitions */
 
 .bg-color-white {
@@ -36,10 +42,6 @@ html {
 
 .bg-color-black {
   background-color: black;
-}
-
-.bg-color-trans {
-  background-color: rgba(0, 0, 0, 0);
 }
 
 .color-white {
@@ -163,11 +165,11 @@ html {
   width: 100px;
   border-radius: 40px;
   color: #0053FF;
+  background-color: rgba(0, 0, 0, 0);
   font-size: 18px;
   font-weight: 700;
   border-color: #0053FF;
   border-width: 2px;
-  transition: background-color 0.5s ease;
 }
 
 .menus .about:hover {
@@ -178,11 +180,6 @@ html {
 
 .menus .about:focus {
   outline: none;
-}
-
-.menus .about:active {
-  border-color: #0053FF;
-  border-width: 2px;
 }
 
 /* Side Menu */
@@ -196,28 +193,30 @@ html {
   text-align: left;
 }
 
-.menus .sidemenu .selected,
-.original {
+.menus .sidemenu .menu-item {
   margin-bottom: 4px;
   padding-right: 60px;
   padding-top: 4px;
   padding-bottom: 4px;
   transition: color 0.5s ease;
+  display: block;
 }
 
 .menus .sidemenu .selected {
-  color: #0053FF;
+  color: #0053FF !important;
 }
 
 .menus .sidemenu .selected::before {
   content: "―― ";
-  color: #0053FF;
-  transition: color 0.5s ease;
+  color: #0053FF !important;
 }
 
-.menus .sidemenu .original:hover::before {
+.menus .sidemenu .menu-item:hover {
+  cursor: pointer;
+}
+
+.menus .sidemenu .menu-item:hover::before {
   content: "―― ";
-  transition: color 0.5s ease;
 }
 
 /* Copyright */
@@ -242,44 +241,40 @@ html {
 
 /* Details */
 
-.section {
+.inner-section {
   align-items: center;
   display: flex;
 }
 
-.section .details {
+.inner-section .details {
   position: absolute;
   left: calc(55%);
   width: 360px;
   text-align: left;
 }
 
-.section .details .day {
+.inner-section .details .day {
   font-weight: 700;
   font-size: 20px;
   margin: 0px;
 }
 
-.section .details .title {
+.inner-section .details .title {
   font-weight: 700;
   font-size: 40px;
   margin-top: 20px;
   margin-bottom: 0px;
 }
 
-.section .details .description {
+.inner-section .details .description {
   font-size: 16px;
   margin-top: 20px;
   margin-bottom: 0px;
 }
 
-.section .details .logo {
+.inner-section .details .logo {
   width: 40px;
   height: 40px;
   margin-top: 40px;
   margin-right: 10px;
-}
-
-.section .details .logo-wrapper:focus {
-  outline: none;
 }
