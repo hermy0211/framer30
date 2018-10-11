@@ -173,6 +173,7 @@
   color: white;
   background-color: #0053FF !important;
   transition: 0.5s;
+  cursor: pointer;
 }
 
 .menus .about:focus {
@@ -276,6 +277,10 @@
   height: 40px;
   margin-top: 40px;
   margin-right: 10px;
+}
+
+.inner-section .details a:focus {
+  outline: none;
 }
 
 /* About Layer */
