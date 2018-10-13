@@ -39,6 +39,7 @@ class App extends Component {
     let details = [...detailItems]
     let windowHeight = this.state.windowHeight
     let about = document.querySelector(".about")
+    let firstProject = document.querySelector(".project")
 
     window.addEventListener('scroll', () => {
       let y = window.scrollY
@@ -57,6 +58,7 @@ class App extends Component {
           detail.classList.remove("display-none")
         })
         about.classList.add("bg-color-white")
+        firstProject.classList.remove("display-none")
       } else {
         app.classList.add("bg-color-black")
         app.classList.remove("bg-color-white")
@@ -72,6 +74,7 @@ class App extends Component {
           detail.classList.add("display-none")
         })
         about.classList.remove("bg-color-white")
+        firstProject.classList.add("display-none")
       }
     })
   }
@@ -82,6 +85,8 @@ class App extends Component {
     let allSections = document.querySelector(".sections")
     let i = 0
     let windowHeight = this.state.windowHeight
+    let selectProjects = document.querySelectorAll(".project")
+    let projects = [...selectProjects]
 
     for (let section of sections) {
       section.style.top = windowHeight*i + "px"
@@ -97,7 +102,6 @@ class App extends Component {
     function handleMouseWheel (event) {
       const e = window.event || event;
       const delta = Math.max(-1, Math.min(1, e.wheelDelta || -e.detail));
-      console.log(delta)
 
       if (delta === -1) {
         event.preventDefault()
@@ -114,12 +118,25 @@ class App extends Component {
       if(event.keyCode === 40) {
         event.preventDefault()
         scroll.scrollMore(windowHeight, {duration: 400})
+        fadeProjects(400)
       } else if (event.keyCode === 38) {
         event.preventDefault()
         scroll.scrollMore(-windowHeight, {duration: 400})
+        fadeProjects(400)
       } else if (event.keyCode === 32) {
         event.preventDefault()
       }
+    }
+
+    function fadeProjects (time) {
+      projects.forEach((project) => {
+        project.classList.add("display-none")
+      })
+      setTimeout(() => {
+        projects.forEach((project)=>{
+          project.classList.remove("display-none")
+        })
+      }, time)
     }
   }
 

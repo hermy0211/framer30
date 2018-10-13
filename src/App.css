@@ -239,6 +239,17 @@
   width: 260px;
 }
 
+.project {
+  position: absolute;
+  left: calc(40% - 165px);
+  top: 0px;
+  margin-top: calc(50vh - 245px);
+  margin-bottom: calc(50vh - 246px);
+  width: 229px;
+  height: 493px;
+  transition: opacity 0.1s;
+}
+
 /* Details */
 
 .inner-section {
