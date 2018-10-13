@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
-import * as Scroll from 'react-scroll'
-import { Link, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+import { Link, Element, animateScroll as scroll } from 'react-scroll'
 import './App.css'
 import './Responsive.css'
 import Section from './Section'
@@ -163,7 +162,7 @@ class App extends Component {
                 <div className="title">
                   <div className="framer">FramerX</div>
                   <img src={cross} alt="cross"/>
-                  <div className="react">React</div>
+                  <div className="react">React.js</div>
                 </div>
                 <div className="subtitle">
                   30 Prototypes in 30 Days
@@ -208,69 +207,69 @@ class App extends Component {
             className="section"
           ><Section/></Element>
         </div>
-          <div className="menus">
-            <div className="sidemenu">
-              <Link
-                to="sectionOne"
-                activeClass="selected"
-                spy={true}
-                smooth={true}
-                duration={1000}
-                className="menu-item">
-                Home
-              </Link>
-              <Link
-                to="sectionTwo"
-                activeClass="selected"
-                spy={true}
-                smooth={true}
-                duration={1000}
-                className="menu-item">
-                01 - 05</Link>
-              <Link
-                to="sectionThree"
-                activeClass="selected"
-                spy={true}
-                smooth={true}
-                duration={1000}
-                className="menu-item">06 - 10</Link>
-              <Link
-                to="sectionFour"
-                activeClass="selected"
-                spy={true}
-                smooth={true}
-                duration={1000}
-                className="menu-item">11 - 15</Link>
-              <Link
-                to="sectionFive"
-                activeClass="selected"
-                spy={true}
-                smooth={true}
-                duration={1000}
-                className="menu-item">16 - 20</Link>
-              <Link
-                to="sectionSix"
-                activeClass="selected"
-                spy={true}
-                smooth={true}
-                duration={1000}
-                className="menu-item">21 - 25</Link>
-              <Link
-                to="sectionSeven"
-                activeClass="selected"
-                spy={true}
-                smooth={true}
-                duration={1000}
-                className="menu-item">25 - 30</Link>
-            </div>
-            <div>
-              <button type="button" name="About" className="about" onClick={this.openAbout}>About</button>
-            </div>
-            <div className="copyright">
-              © Anne Lee, 2018
-            </div>
+        <div className="menus">
+          <div className="sidemenu">
+            <Link
+              to="sectionOne"
+              activeClass="selected"
+              spy={true}
+              smooth={true}
+              duration={1000}
+              className="menu-item">
+              Home
+            </Link>
+            <Link
+              to="sectionTwo"
+              activeClass="selected"
+              spy={true}
+              smooth={true}
+              duration={1000}
+              className="menu-item">
+              01 - 05</Link>
+            <Link
+              to="sectionThree"
+              activeClass="selected"
+              spy={true}
+              smooth={true}
+              duration={1000}
+              className="menu-item">06 - 10</Link>
+            <Link
+              to="sectionFour"
+              activeClass="selected"
+              spy={true}
+              smooth={true}
+              duration={1000}
+              className="menu-item">11 - 15</Link>
+            <Link
+              to="sectionFive"
+              activeClass="selected"
+              spy={true}
+              smooth={true}
+              duration={1000}
+              className="menu-item">16 - 20</Link>
+            <Link
+              to="sectionSix"
+              activeClass="selected"
+              spy={true}
+              smooth={true}
+              duration={1000}
+              className="menu-item">21 - 25</Link>
+            <Link
+              to="sectionSeven"
+              activeClass="selected"
+              spy={true}
+              smooth={true}
+              duration={1000}
+              className="menu-item">25 - 30</Link>
           </div>
-          <img src={iphone} className="iphone display-none" alt="iphone"/>
+          <div>
+            <button type="button" name="About" className="about" onClick={this.openAbout}>About</button>
+          </div>
+          <div className="copyright">
+            © Anne Lee, 2018
+          </div>
+        </div>
+        <img src={iphone} className="iphone display-none" alt="iphone"/>
         <div className="about-layer overlay">
           <div className="introduction">
             <div className="introduction-inner">
