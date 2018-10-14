@@ -8,10 +8,14 @@ import mouse from './img/mouse.svg'
 import mousescroll from './img/mousescroll.svg'
 import iphone from './img/iphone.svg'
 import close from './img/close.png'
+import dayOne from './img/day01_password.gif'
+import dayTwo from './img/day02_card.gif'
 
 class App extends Component {
   state = {
-    windowHeight: window.innerHeight
+    windowHeight: window.innerHeight,
+    dayOneImage: dayOne,
+    dayTwoImage: dayTwo
   }
 
   componentDidMount = () => {
@@ -202,27 +206,69 @@ class App extends Component {
           <Element
             name="sectionTwo"
             className="section"
-          ><Section/></Element>
+          ><Section
+            day = "DAY 01"
+            title = "Password Check Interaction"
+            description = "This prototype checks the length of the inputted password, and returns either the success or fail animation. The keyboard component was created from scratch, and I intend to publish it."
+            mediumLink = "https://medium.com/@annelee_22736"
+            githubLink = "https://github.com/hermy0211/framer30-code/tree/master/Day%2001%20Password"
+            image = {this.state.dayOneImage}
+          /></Element>
           <Element
             name="sectionThree"
             className="section"
-          ><Section/></Element>
+          ><Section
+            day = "DAY 02"
+            title = "Save Card Interaction"
+            description = "This prototype replicates the interaction of when a card is swiped down and 'saved' to the deck. I put extra care into creating smooth, easing in and out animations for the information components."
+            mediumLink = "https://medium.com/@annelee_22736"
+            githubLink = "https://github.com/hermy0211/framer30-code/tree/master/Day%2002%20Cards"
+            image = {this.state.dayTwoImage}
+          /></Element>
           <Element
             name="sectionFour"
             className="section"
-          ><Section/></Element>
+          ><Section
+            day = "DAY 01"
+            title = "Password Check Interaction"
+            description = "This prototype checks the length of the inputted password, and returns either the success or fail animation. The keyboard component was created from scratch, and I intend to publish it."
+            mediumLink = "https://medium.com/@annelee_22736"
+            githubLink = "https://github.com/hermy0211/framer30-code/tree/master/Day%2001%20Password"
+            image = {this.state.dayOneImage}
+          /></Element>
           <Element
             name="sectionFive"
             className="section"
-          ><Section/></Element>
+          ><Section
+            day = "DAY 01"
+            title = "Password Check Interaction"
+            description = "This prototype checks the length of the inputted password, and returns either the success or fail animation. The keyboard component was created from scratch, and I intend to publish it."
+            mediumLink = "https://medium.com/@annelee_22736"
+            githubLink = "https://github.com/hermy0211/framer30-code/tree/master/Day%2001%20Password"
+            image = {this.state.dayOneImage}
+          /></Element>
           <Element
             name="sectionSix"
             className="section"
-          ><Section/></Element>
+          ><Section
+            day = "DAY 01"
+            title = "Password Check Interaction"
+            description = "This prototype checks the length of the inputted password, and returns either the success or fail animation. The keyboard component was created from scratch, and I intend to publish it."
+            mediumLink = "https://medium.com/@annelee_22736"
+            githubLink = "https://github.com/hermy0211/framer30-code/tree/master/Day%2001%20Password"
+            image = {this.state.dayOneImage}
+          /></Element>
           <Element
             name="sectionSeven"
             className="section"
-          ><Section/></Element>
+          ><Section
+            day = "DAY 01"
+            title = "Password Check Interaction"
+            description = "This prototype checks the length of the inputted password, and returns either the success or fail animation. The keyboard component was created from scratch, and I intend to publish it."
+            mediumLink = "https://medium.com/@annelee_22736"
+            githubLink = "https://github.com/hermy0211/framer30-code/tree/master/Day%2001%20Password"
+            image = {this.state.dayOneImage}
+          /></Element>
         </div>
         <div className="menus">
           <div className="sidemenu">
