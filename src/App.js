@@ -10,6 +10,7 @@ import iphone from './img/iphone.svg'
 import close from './img/close.png'
 import dayOne from './img/day01_password.gif'
 import dayTwo from './img/day02_card.gif'
+import dayThree from './img/day03_circlemenu.gif'
 import blank from './img/blank.png'
 
 class App extends Component {
@@ -24,15 +25,15 @@ class App extends Component {
     },{
       day: "DAY 02",
       title: "Save Card Interaction",
-      description: "This prototype replicates the interaction of when a card is swiped down and 'saved' to the deck. I put extra care into creating smooth, easing in and out animations for the information components.",
+      description: "This prototype replicates the interaction of when a card is swiped down and 'saved' to the deck. I tried to put extra care into creating smooth, easing in / out animations for the information components.",
       githubLink: "https://github.com/hermy0211/framer30-code/tree/master/Day%2002%20Cards",
       image: dayTwo
     },{
       day: "DAY 03",
-      title: "Coming Soon",
-      description: "Stay tuned for more prototypes created with FramerX and React.js.",
-      githubLink: "https://github.com/hermy0211/framer30-code",
-      image: blank
+      title: "Circular Menu Animation",
+      description: "This is an example of a circular menu that you can tap in order to show the different menu options. When you tap on the button, the menu opens and the icons roll in. When you tap on an icon, the menu closes.",
+      githubLink: "https://github.com/hermy0211/framer30-code/tree/master/Day%2003%20Circle%20Menu",
+      image: dayThree
     },{
       day: "DAY 04",
       title: "Coming Soon",
