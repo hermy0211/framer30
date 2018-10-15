@@ -10,12 +10,197 @@ import iphone from './img/iphone.svg'
 import close from './img/close.png'
 import dayOne from './img/day01_password.gif'
 import dayTwo from './img/day02_card.gif'
+import blank from './img/blank.png'
 
 class App extends Component {
   state = {
     windowHeight: window.innerHeight,
-    dayOneImage: dayOne,
-    dayTwoImage: dayTwo
+    dataOne: [{
+      day: "DAY 01",
+      title: "Password Check Interaction",
+      description: "This prototype checks the length of the inputted password, and returns either the success or fail animation. The keyboard component was created from scratch, and I intend to publish it.",
+      githubLink: "https://github.com/hermy0211/framer30-code/tree/master/Day%2001%20Password",
+      image: dayOne
+    },{
+      day: "DAY 02",
+      title: "Save Card Interaction",
+      description: "This prototype replicates the interaction of when a card is swiped down and 'saved' to the deck. I put extra care into creating smooth, easing in and out animations for the information components.",
+      githubLink: "https://github.com/hermy0211/framer30-code/tree/master/Day%2002%20Cards",
+      image: dayTwo
+    },{
+      day: "DAY 03",
+      title: "Coming Soon",
+      description: "Stay tuned for more prototypes created with FramerX and React.js.",
+      githubLink: "https://github.com/hermy0211/framer30-code",
+      image: blank
+    },{
+      day: "DAY 04",
+      title: "Coming Soon",
+      description: "Stay tuned for more prototypes created with FramerX and React.js.",
+      githubLink: "https://github.com/hermy0211/framer30-code",
+      image: blank
+    },{
+      day: "DAY 05",
+      title: "Coming Soon",
+      description: "Stay tuned for more prototypes created with FramerX and React.js.",
+      githubLink: "https://github.com/hermy0211/framer30-code",
+      image: blank
+    }],
+    dataTwo: [{
+      day: "DAY 06",
+      title: "Coming Soon",
+      description: "Stay tuned for more prototypes created with FramerX and React.js.",
+      githubLink: "https://github.com/hermy0211/framer30-code",
+      image: blank
+    },{
+      day: "DAY 07",
+      title: "Coming Soon",
+      description: "Stay tuned for more prototypes created with FramerX and React.js.",
+      githubLink: "https://github.com/hermy0211/framer30-code",
+      image: blank
+    },{
+      day: "DAY 08",
+      title: "Coming Soon",
+      description: "Stay tuned for more prototypes created with FramerX and React.js.",
+      githubLink: "https://github.com/hermy0211/framer30-code",
+      image: blank
+    },{
+      day: "DAY 09",
+      title: "Coming Soon",
+      description: "Stay tuned for more prototypes created with FramerX and React.js.",
+      githubLink: "https://github.com/hermy0211/framer30-code",
+      image: blank
+    },{
+      day: "DAY 10",
+      title: "Coming Soon",
+      description: "Stay tuned for more prototypes created with FramerX and React.js.",
+      githubLink: "https://github.com/hermy0211/framer30-code",
+      image: blank
+    }],
+    dataThree: [{
+      day: "DAY 11",
+      title: "Coming Soon",
+      description: "Stay tuned for more prototypes created with FramerX and React.js.",
+      githubLink: "https://github.com/hermy0211/framer30-code",
+      image: blank
+    },{
+      day: "DAY 12",
+      title: "Coming Soon",
+      description: "Stay tuned for more prototypes created with FramerX and React.js.",
+      githubLink: "https://github.com/hermy0211/framer30-code",
+      image: blank
+    },{
+      day: "DAY 13",
+      title: "Coming Soon",
+      description: "Stay tuned for more prototypes created with FramerX and React.js.",
+      githubLink: "https://github.com/hermy0211/framer30-code",
+      image: blank
+    },{
+      day: "DAY 14",
+      title: "Coming Soon",
+      description: "Stay tuned for more prototypes created with FramerX and React.js.",
+      githubLink: "https://github.com/hermy0211/framer30-code",
+      image: blank
+    },{
+      day: "DAY 15",
+      title: "Coming Soon",
+      description: "Stay tuned for more prototypes created with FramerX and React.js.",
+      githubLink: "https://github.com/hermy0211/framer30-code",
+      image: blank
+    }],
+    dataFour: [{
+      day: "DAY 16",
+      title: "Coming Soon",
+      description: "Stay tuned for more prototypes created with FramerX and React.js.",
+      githubLink: "https://github.com/hermy0211/framer30-code",
+      image: blank
+    },{
+      day: "DAY 17",
+      title: "Coming Soon",
+      description: "Stay tuned for more prototypes created with FramerX and React.js.",
+      githubLink: "https://github.com/hermy0211/framer30-code",
+      image: blank
+    },{
+      day: "DAY 18",
+      title: "Coming Soon",
+      description: "Stay tuned for more prototypes created with FramerX and React.js.",
+      githubLink: "https://github.com/hermy0211/framer30-code",
+      image: blank
+    },{
+      day: "DAY 19",
+      title: "Coming Soon",
+      description: "Stay tuned for more prototypes created with FramerX and React.js.",
+      githubLink: "https://github.com/hermy0211/framer30-code",
+      image: blank
+    },{
+      day: "DAY 20",
+      title: "Coming Soon",
+      description: "Stay tuned for more prototypes created with FramerX and React.js.",
+      githubLink: "https://github.com/hermy0211/framer30-code",
+      image: blank
+    }],
+    dataFive: [{
+      day: "DAY 21",
+      title: "Coming Soon",
+      description: "Stay tuned for more prototypes created with FramerX and React.js.",
+      githubLink: "https://github.com/hermy0211/framer30-code",
+      image: blank
+    },{
+      day: "DAY 22",
+      title: "Coming Soon",
+      description: "Stay tuned for more prototypes created with FramerX and React.js.",
+      githubLink: "https://github.com/hermy0211/framer30-code",
+      image: blank
+    },{
+      day: "DAY 23",
+      title: "Coming Soon",
+      description: "Stay tuned for more prototypes created with FramerX and React.js.",
+      githubLink: "https://github.com/hermy0211/framer30-code",
+      image: blank
+    },{
+      day: "DAY 24",
+      title: "Coming Soon",
+      description: "Stay tuned for more prototypes created with FramerX and React.js.",
+      githubLink: "https://github.com/hermy0211/framer30-code",
+      image: blank
+    },{
+      day: "DAY 25",
+      title: "Coming Soon",
+      description: "Stay tuned for more prototypes created with FramerX and React.js.",
+      githubLink: "https://github.com/hermy0211/framer30-code",
+      image: blank
+    }],
+    dataSix: [{
+      day: "DAY 26",
+      title: "Coming Soon",
+      description: "Stay tuned for more prototypes created with FramerX and React.js.",
+      githubLink: "https://github.com/hermy0211/framer30-code",
+      image: blank
+    },{
+      day: "DAY 27",
+      title: "Coming Soon",
+      description: "Stay tuned for more prototypes created with FramerX and React.js.",
+      githubLink: "https://github.com/hermy0211/framer30-code",
+      image: blank
+    },{
+      day: "DAY 28",
+      title: "Coming Soon",
+      description: "Stay tuned for more prototypes created with FramerX and React.js.",
+      githubLink: "https://github.com/hermy0211/framer30-code",
+      image: blank
+    },{
+      day: "DAY 29",
+      title: "Coming Soon",
+      description: "Stay tuned for more prototypes created with FramerX and React.js.",
+      githubLink: "https://github.com/hermy0211/framer30-code",
+      image: blank
+    },{
+      day: "DAY 30",
+      title: "Coming Soon",
+      description: "Stay tuned for more prototypes created with FramerX and React.js.",
+      githubLink: "https://github.com/hermy0211/framer30-code",
+      image: blank
+    }]
   }
 
   componentDidMount = () => {
@@ -86,18 +271,26 @@ class App extends Component {
   scrollInput = () => {
     let selectSections = document.querySelectorAll(".section")
     let sections = [...selectSections]
+    let selectInnerSections = document.querySelectorAll(".inner-section")
+    let innerSections = [...selectInnerSections]
     let allSections = document.querySelector(".sections")
     let i = 0
+    let j = 0
     let windowHeight = this.state.windowHeight
     let selectProjects = document.querySelectorAll(".project")
     let projects = [...selectProjects]
 
     for (let section of sections) {
-      section.style.top = windowHeight*i + "px"
+      section.style.top = windowHeight+windowHeight*i*5 + "px"
       i++
     }
 
-    allSections.style.height = windowHeight*(sections.length) + "px"
+    for (let innerSection of innerSections) {
+      innerSection.style.top = windowHeight*j + "px"
+      j++
+    }
+
+    allSections.style.height = windowHeight*(sections.length)*5 + "px"
 
     window.addEventListener('keydown', handleKeyPress)
     window.addEventListener('mousewheel', handleMouseWheel, false)
@@ -174,100 +367,70 @@ class App extends Component {
         <div className="mobile">
           <p>Please view this page on a PC.</p>
         </div>
-        <div className="sections">
-          <Element
-            name="sectionOne"
-            className="section">
-            <section className="main inner-section">
-              <div className="info">
-                <div className="title">
-                  <div className="framer">FramerX</div>
-                  <img src={cross} alt="cross"/>
-                  <div className="react">React.js</div>
-                </div>
-                <div className="subtitle">
-                  30 Prototypes in 30 Days
-                </div>
-                <div className="tags">
-                  <div className="tag">#Framer30</div>
-                  <div className="tag">#Prototyping</div>
-                  <div className="tag">#UXUIDesign</div>
-                </div>
-                <div className="scroll">
-                  <div className="mouse">
-                    <img src={mouse} className="mousecircle" alt="mouse"/>
-                    <img src={mousescroll} className="mousescroll" alt="mouse wheel"/>
-                  </div>
-                  <div className="scrolltext">Scroll Down</div>
-                </div>
+        <Element
+          name="sectionOne"
+          className="main-section">
+          <section className="main inner-section">
+            <div className="info">
+              <div className="title">
+                <div className="framer">FramerX</div>
+                <img src={cross} alt="cross"/>
+                <div className="react">React.js</div>
               </div>
-            </section>
-          </Element>
+              <div className="subtitle">
+                30 Prototypes in 30 Days
+              </div>
+              <div className="tags">
+                <div className="tag">#Framer30</div>
+                <div className="tag">#Prototyping</div>
+                <div className="tag">#UXUIDesign</div>
+              </div>
+              <div className="scroll">
+                <div className="mouse">
+                  <img src={mouse} className="mousecircle" alt="mouse"/>
+                  <img src={mousescroll} className="mousescroll" alt="mouse wheel"/>
+                </div>
+                <div className="scrolltext">Scroll Down</div>
+              </div>
+            </div>
+          </section>
+        </Element>
+        <div className="sections">
           <Element
             name="sectionTwo"
             className="section"
           ><Section
-            day = "DAY 01"
-            title = "Password Check Interaction"
-            description = "This prototype checks the length of the inputted password, and returns either the success or fail animation. The keyboard component was created from scratch, and I intend to publish it."
-            mediumLink = "https://medium.com/@annelee_22736"
-            githubLink = "https://github.com/hermy0211/framer30-code/tree/master/Day%2001%20Password"
-            image = {this.state.dayOneImage}
+            data = {this.state.dataOne}
           /></Element>
           <Element
             name="sectionThree"
             className="section"
           ><Section
-            day = "DAY 02"
-            title = "Save Card Interaction"
-            description = "This prototype replicates the interaction of when a card is swiped down and 'saved' to the deck. I put extra care into creating smooth, easing in and out animations for the information components."
-            mediumLink = "https://medium.com/@annelee_22736"
-            githubLink = "https://github.com/hermy0211/framer30-code/tree/master/Day%2002%20Cards"
-            image = {this.state.dayTwoImage}
+            data = {this.state.dataTwo}
           /></Element>
           <Element
             name="sectionFour"
             className="section"
           ><Section
-            day = "DAY 01"
-            title = "Password Check Interaction"
-            description = "This prototype checks the length of the inputted password, and returns either the success or fail animation. The keyboard component was created from scratch, and I intend to publish it."
-            mediumLink = "https://medium.com/@annelee_22736"
-            githubLink = "https://github.com/hermy0211/framer30-code/tree/master/Day%2001%20Password"
-            image = {this.state.dayOneImage}
+            data = {this.state.dataThree}
           /></Element>
           <Element
             name="sectionFive"
             className="section"
           ><Section
-            day = "DAY 01"
-            title = "Password Check Interaction"
-            description = "This prototype checks the length of the inputted password, and returns either the success or fail animation. The keyboard component was created from scratch, and I intend to publish it."
-            mediumLink = "https://medium.com/@annelee_22736"
-            githubLink = "https://github.com/hermy0211/framer30-code/tree/master/Day%2001%20Password"
-            image = {this.state.dayOneImage}
+            data = {this.state.dataFour}
           /></Element>
           <Element
             name="sectionSix"
             className="section"
           ><Section
-            day = "DAY 01"
-            title = "Password Check Interaction"
-            description = "This prototype checks the length of the inputted password, and returns either the success or fail animation. The keyboard component was created from scratch, and I intend to publish it."
-            mediumLink = "https://medium.com/@annelee_22736"
-            githubLink = "https://github.com/hermy0211/framer30-code/tree/master/Day%2001%20Password"
-            image = {this.state.dayOneImage}
+            data = {this.state.dataFive}
           /></Element>
           <Element
             name="sectionSeven"
             className="section"
           ><Section
-            day = "DAY 01"
-            title = "Password Check Interaction"
-            description = "This prototype checks the length of the inputted password, and returns either the success or fail animation. The keyboard component was created from scratch, and I intend to publish it."
-            mediumLink = "https://medium.com/@annelee_22736"
-            githubLink = "https://github.com/hermy0211/framer30-code/tree/master/Day%2001%20Password"
-            image = {this.state.dayOneImage}
+            data = {this.state.dataSix}
           /></Element>
         </div>
         <div className="menus">
@@ -277,7 +440,7 @@ class App extends Component {
               activeClass="selected"
               spy={true}
               smooth={true}
-              duration={1000}
+              duration={1500}
               className="menu-item">
               Home
             </Link>
@@ -286,7 +449,7 @@ class App extends Component {
               activeClass="selected"
               spy={true}
               smooth={true}
-              duration={1000}
+              duration={1500}
               className="menu-item">
               01 - 05</Link>
             <Link
@@ -294,35 +457,35 @@ class App extends Component {
               activeClass="selected"
               spy={true}
               smooth={true}
-              duration={1000}
+              duration={1500}
               className="menu-item">06 - 10</Link>
             <Link
               to="sectionFour"
               activeClass="selected"
               spy={true}
               smooth={true}
-              duration={1000}
+              duration={1500}
               className="menu-item">11 - 15</Link>
             <Link
               to="sectionFive"
               activeClass="selected"
               spy={true}
               smooth={true}
-              duration={1000}
+              duration={1500}
               className="menu-item">16 - 20</Link>
             <Link
               to="sectionSix"
               activeClass="selected"
               spy={true}
               smooth={true}
-              duration={1000}
+              duration={1500}
               className="menu-item">21 - 25</Link>
             <Link
               to="sectionSeven"
               activeClass="selected"
               spy={true}
               smooth={true}
-              duration={1000}
+              duration={1500}
               className="menu-item">25 - 30</Link>
           </div>
           <div>

@@ -19,9 +19,15 @@
   overflow-x: hidden;
 }
 
-.section {
+.main-section {
   position: absolute;
   height: 100vh;
+  width: 100%;
+}
+
+.section {
+  position: absolute;
+  height: 500vh;
   width: 100%;
 }
 
@@ -240,9 +246,8 @@
 }
 
 .project {
-  position: absolute;
-  left: calc(40% - 165px);
-  top: 0px;
+  position: inherit;
+  margin-left: calc(40% - 165px);
   margin-top: calc(50vh - 245px);
   margin-bottom: calc(50vh - 246px);
   width: 229px;
@@ -288,6 +293,10 @@
   height: 40px;
   margin-top: 40px;
   margin-right: 10px;
+}
+
+.inner-section .details .logo:hover {
+  cursor: pointer;
 }
 
 .inner-section .details a:focus {
@@ -414,6 +423,10 @@
   position: absolute;
   right: 30px;
   top: 30px;
+}
+
+.about-layer .close:hover {
+  cursor: pointer;
 }
 
 .show {
