@@ -18,7 +18,8 @@
 
   .sections,
   .menus,
-  .about-layer {
+  .about-layer,
+  .main-section {
     display: none;
   }
 }
