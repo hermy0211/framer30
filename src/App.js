@@ -11,6 +11,7 @@ import close from './img/close.png'
 import dayOne from './img/day01_password.gif'
 import dayTwo from './img/day02_card.gif'
 import dayThree from './img/day03_circlemenu.gif'
+import dayFour from './img/day04_hearts.gif'
 import blank from './img/blank.png'
 
 class App extends Component {
@@ -36,10 +37,10 @@ class App extends Component {
       image: dayThree
     },{
       day: "DAY 04",
-      title: "Coming Soon",
-      description: "Stay tuned for more prototypes created with FramerX and React.js.",
-      githubLink: "https://github.com/hermy0211/framer30-code",
-      image: blank
+      title: "Live Stream Heart Animation",
+      description: "Up to now, I have been using overrides to animate my components. Today I learned that you can use querySelectors to access them as well. This was a challenging exercise, but it had a lot of takeaways!",
+      githubLink: "https://github.com/hermy0211/framer30-code/tree/master/Day%2004%20Hearts",
+      image: dayFour
     },{
       day: "DAY 05",
       title: "Coming Soon",
@@ -487,7 +488,7 @@ class App extends Component {
               spy={true}
               smooth={true}
               duration={1500}
-              className="menu-item">25 - 30</Link>
+              className="menu-item">26 - 30</Link>
           </div>
           <div>
             <button type="button" name="About" className="about" onClick={this.openAbout}>About</button>
