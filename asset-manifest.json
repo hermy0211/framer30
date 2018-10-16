@@ -1,9 +1,9 @@
 {
-  "main.css": "/framer30/static/css/main.f35aa667.chunk.css",
-  "main.js": "/framer30/static/js/main.db9dd6a7.chunk.js",
-  "main.js.map": "/framer30/static/js/main.db9dd6a7.chunk.js.map",
-  "static/js/1.18c52b2a.chunk.js": "/framer30/static/js/1.18c52b2a.chunk.js",
-  "static/js/1.18c52b2a.chunk.js.map": "/framer30/static/js/1.18c52b2a.chunk.js.map",
+  "main.css": "/framer30/static/css/main.66ffddd3.chunk.css",
+  "main.js": "/framer30/static/js/main.977d077c.chunk.js",
+  "main.js.map": "/framer30/static/js/main.977d077c.chunk.js.map",
+  "static/js/1.2166ba19.chunk.js": "/framer30/static/js/1.2166ba19.chunk.js",
+  "static/js/1.2166ba19.chunk.js.map": "/framer30/static/js/1.2166ba19.chunk.js.map",
   "runtime~main.js": "/framer30/static/js/runtime~main.9592f2ee.js",
   "runtime~main.js.map": "/framer30/static/js/runtime~main.9592f2ee.js.map",
   "static/media/blank.png": "/framer30/static/media/blank.5271b25f.png",
@@ -12,9 +12,10 @@
   "static/media/day01_password.gif": "/framer30/static/media/day01_password.20dbbc53.gif",
   "static/media/day02_card.gif": "/framer30/static/media/day02_card.6fdf8d6d.gif",
   "static/media/day03_circlemenu.gif": "/framer30/static/media/day03_circlemenu.9e534d14.gif",
+  "static/media/day04_hearts.gif": "/framer30/static/media/day04_hearts.076a9de9.gif",
   "static/media/mouse.svg": "/framer30/static/media/mouse.8ddac20c.svg",
-  "static/css/main.f35aa667.chunk.css.map": "/framer30/static/css/main.f35aa667.chunk.css.map",
+  "static/css/main.66ffddd3.chunk.css.map": "/framer30/static/css/main.66ffddd3.chunk.css.map",
   "index.html": "/framer30/index.html",
-  "precache-manifest.fe1d05c76ea4a2aff20a6b9667cbae48.js": "/framer30/precache-manifest.fe1d05c76ea4a2aff20a6b9667cbae48.js",
+  "precache-manifest.6b2522a59b990b93c475d1165e652880.js": "/framer30/precache-manifest.6b2522a59b990b93c475d1165e652880.js",
   "service-worker.js": "/framer30/service-worker.js"
 }
