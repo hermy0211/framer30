@@ -12,6 +12,7 @@ import dayOne from './img/day01_password.gif'
 import dayTwo from './img/day02_card.gif'
 import dayThree from './img/day03_circlemenu.gif'
 import dayFour from './img/day04_hearts.gif'
+import dayFive from './img/day05_safari.gif'
 import blank from './img/blank.png'
 
 class App extends Component {
@@ -43,10 +44,10 @@ class App extends Component {
       image: dayFour
     },{
       day: "DAY 05",
-      title: "Coming Soon",
-      description: "Stay tuned for more prototypes created with FramerX and React.js.",
-      githubLink: "https://github.com/hermy0211/framer30-code",
-      image: blank
+      title: "Safari Switch Tabs Interaction",
+      description: "Today's prototype is a recreation of Safari's switch tab interaction. I used rotate3d() and perspective to rotate the page.",
+      githubLink: "https://github.com/hermy0211/framer30-code/tree/master/Day%2005%20Safari",
+      image: dayFive
     }],
     dataTwo: [{
       day: "DAY 06",
