@@ -1,9 +1,9 @@
 {
-  "main.css": "/framer30/static/css/main.812921a3.chunk.css",
-  "main.js": "/framer30/static/js/main.bd256bf7.chunk.js",
-  "main.js.map": "/framer30/static/js/main.bd256bf7.chunk.js.map",
-  "static/js/1.11827642.chunk.js": "/framer30/static/js/1.11827642.chunk.js",
-  "static/js/1.11827642.chunk.js.map": "/framer30/static/js/1.11827642.chunk.js.map",
+  "main.css": "/framer30/static/css/main.d5281bf4.chunk.css",
+  "main.js": "/framer30/static/js/main.a099ab78.chunk.js",
+  "main.js.map": "/framer30/static/js/main.a099ab78.chunk.js.map",
+  "static/js/1.bb1e0929.chunk.js": "/framer30/static/js/1.bb1e0929.chunk.js",
+  "static/js/1.bb1e0929.chunk.js.map": "/framer30/static/js/1.bb1e0929.chunk.js.map",
   "runtime~main.js": "/framer30/static/js/runtime~main.9592f2ee.js",
   "runtime~main.js.map": "/framer30/static/js/runtime~main.9592f2ee.js.map",
   "static/media/blank.png": "/framer30/static/media/blank.5271b25f.png",
@@ -14,9 +14,10 @@
   "static/media/day03_circlemenu.gif": "/framer30/static/media/day03_circlemenu.9e534d14.gif",
   "static/media/day04_hearts.gif": "/framer30/static/media/day04_hearts.076a9de9.gif",
   "static/media/day05_safari.gif": "/framer30/static/media/day05_safari.e0780dab.gif",
+  "static/media/day06_align.gif": "/framer30/static/media/day06_align.3a99a557.gif",
   "static/media/mouse.svg": "/framer30/static/media/mouse.8ddac20c.svg",
-  "static/css/main.812921a3.chunk.css.map": "/framer30/static/css/main.812921a3.chunk.css.map",
+  "static/css/main.d5281bf4.chunk.css.map": "/framer30/static/css/main.d5281bf4.chunk.css.map",
   "index.html": "/framer30/index.html",
-  "precache-manifest.ddb7faa8719d84a8bb8ecb4848d7b4af.js": "/framer30/precache-manifest.ddb7faa8719d84a8bb8ecb4848d7b4af.js",
+  "precache-manifest.f3e684d24f07ac937710bf203db58f0e.js": "/framer30/precache-manifest.f3e684d24f07ac937710bf203db58f0e.js",
   "service-worker.js": "/framer30/service-worker.js"
 }
