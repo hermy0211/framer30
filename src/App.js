@@ -13,6 +13,7 @@ import dayTwo from './img/day02_card.gif'
 import dayThree from './img/day03_circlemenu.gif'
 import dayFour from './img/day04_hearts.gif'
 import dayFive from './img/day05_safari.gif'
+import daySix from './img/day06_align.gif'
 import blank from './img/blank.png'
 
 class App extends Component {
@@ -51,10 +52,10 @@ class App extends Component {
     }],
     dataTwo: [{
       day: "DAY 06",
-      title: "Coming Soon",
-      description: "Stay tuned for more prototypes created with FramerX and React.js.",
-      githubLink: "https://github.com/hermy0211/framer30-code",
-      image: blank
+      title: "Align Text Animation",
+      description: "This was a very simple one to code. All you need to know is animate.ease! If the code seems okay but it is not working, try checking if any automatic position constraints have been applied.",
+      githubLink: "https://github.com/hermy0211/framer30-code/tree/master/Day%2006%20Align",
+      image: daySix
     },{
       day: "DAY 07",
       title: "Coming Soon",
