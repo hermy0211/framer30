@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/framer30/static/media/iphone.59522ab6.svg"
   },
   {
-    "revision": "df7a22c8b898b9eec1cc",
+    "revision": "10c3ceb8d33c7683cdf8",
     "url": "/framer30/static/css/main.d5281bf4.chunk.css"
   },
   {
@@ -28,8 +28,8 @@ self.__precacheManifest = [
     "url": "/framer30/static/media/mousescroll.d955d3b0.svg"
   },
   {
-    "revision": "df7a22c8b898b9eec1cc",
-    "url": "/framer30/static/js/main.df7a22c8.chunk.js"
+    "revision": "10c3ceb8d33c7683cdf8",
+    "url": "/framer30/static/js/main.10c3ceb8.chunk.js"
   },
   {
     "revision": "7a0cc23aa7bec82f9a2b1afcb9f2b279",
@@ -56,7 +56,7 @@ self.__precacheManifest = [
     "url": "/framer30/static/media/day06_align.d98004df.gif"
   },
   {
-    "revision": "fee21e254b36cdfac94b0cc7fd05d1b5",
+    "revision": "da8f6e9d824e21edfb1ae5773a168366",
     "url": "/framer30/index.html"
   }
 ];
