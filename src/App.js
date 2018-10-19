@@ -319,26 +319,24 @@ class App extends Component {
       if(event.keyCode === 40) {
         event.preventDefault()
         scroll.scrollMore(windowHeight, {duration: 400})
-        fadeProjects(400)
       } else if (event.keyCode === 38) {
         event.preventDefault()
         scroll.scrollMore(-windowHeight, {duration: 400})
-        fadeProjects(400)
       } else if (event.keyCode === 32) {
         event.preventDefault()
       }
     }
 
-    function fadeProjects (time) {
-      projects.forEach((project) => {
-        project.classList.add("display-none")
-      })
-      setTimeout(() => {
-        projects.forEach((project)=>{
-          project.classList.remove("display-none")
-        })
-      }, time)
-    }
+    // function fadeProjects (time) {
+    //   projects.forEach((project) => {
+    //     project.classList.add("display-none")
+    //   })
+    //   setTimeout(() => {
+    //     projects.forEach((project)=>{
+    //       project.classList.remove("display-none")
+    //     })
+    //   }, time)
+    // }
   }
 
   resetHeight = () => {
