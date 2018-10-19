@@ -1,7 +1,7 @@
 {
   "main.css": "/framer30/static/css/main.d5281bf4.chunk.css",
-  "main.js": "/framer30/static/js/main.8f1dfa8c.chunk.js",
-  "main.js.map": "/framer30/static/js/main.8f1dfa8c.chunk.js.map",
+  "main.js": "/framer30/static/js/main.df7a22c8.chunk.js",
+  "main.js.map": "/framer30/static/js/main.df7a22c8.chunk.js.map",
   "static/js/1.bb1e0929.chunk.js": "/framer30/static/js/1.bb1e0929.chunk.js",
   "static/js/1.bb1e0929.chunk.js.map": "/framer30/static/js/1.bb1e0929.chunk.js.map",
   "runtime~main.js": "/framer30/static/js/runtime~main.9592f2ee.js",
@@ -18,6 +18,6 @@
   "static/media/mouse.svg": "/framer30/static/media/mouse.8ddac20c.svg",
   "static/css/main.d5281bf4.chunk.css.map": "/framer30/static/css/main.d5281bf4.chunk.css.map",
   "index.html": "/framer30/index.html",
-  "precache-manifest.9be4da94db18820c9c47bff1b5358f18.js": "/framer30/precache-manifest.9be4da94db18820c9c47bff1b5358f18.js",
+  "precache-manifest.519640f7fb72d6a8e8d0f23e524f7b53.js": "/framer30/precache-manifest.519640f7fb72d6a8e8d0f23e524f7b53.js",
   "service-worker.js": "/framer30/service-worker.js"
 }
