@@ -56,7 +56,7 @@ self.__precacheManifest = [
     "url": "/framer30/static/media/day06_align.d98004df.gif"
   },
   {
-    "revision": "a1a2eb5730f97c6edb9142e2fa095191",
+    "revision": "c1588a1894563e8a89be73409b3ee6ba",
     "url": "/framer30/index.html"
   }
 ];
