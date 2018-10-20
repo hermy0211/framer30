@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "59522ab635d3b54ea908d32d1824b874",
-    "url": "/framer30/static/media/iphone.59522ab6.svg"
+    "revision": "7a0cc23aa7bec82f9a2b1afcb9f2b279",
+    "url": "/framer30/static/media/day01_password.7a0cc23a.gif"
   },
   {
-    "revision": "10c3ceb8d33c7683cdf8",
-    "url": "/framer30/static/css/main.d5281bf4.chunk.css"
+    "revision": "f5d3799a098f6ecdf8fa",
+    "url": "/framer30/static/css/main.99d454fa.chunk.css"
   },
   {
-    "revision": "bb1e0929216909dd6f64",
-    "url": "/framer30/static/js/1.bb1e0929.chunk.js"
+    "revision": "7df44029b7c4220ebd7e",
+    "url": "/framer30/static/js/1.7df44029.chunk.js"
   },
   {
     "revision": "9592f2ee4be639ae1fce",
@@ -28,12 +28,12 @@ self.__precacheManifest = [
     "url": "/framer30/static/media/mousescroll.d955d3b0.svg"
   },
   {
-    "revision": "10c3ceb8d33c7683cdf8",
-    "url": "/framer30/static/js/main.10c3ceb8.chunk.js"
+    "revision": "59522ab635d3b54ea908d32d1824b874",
+    "url": "/framer30/static/media/iphone.59522ab6.svg"
   },
   {
-    "revision": "7a0cc23aa7bec82f9a2b1afcb9f2b279",
-    "url": "/framer30/static/media/day01_password.7a0cc23a.gif"
+    "revision": "f5d3799a098f6ecdf8fa",
+    "url": "/framer30/static/js/main.f5d3799a.chunk.js"
   },
   {
     "revision": "b590f57580ff1a5d604d9c11c2aed5ef",
@@ -56,7 +56,11 @@ self.__precacheManifest = [
     "url": "/framer30/static/media/day06_align.d98004df.gif"
   },
   {
-    "revision": "c1588a1894563e8a89be73409b3ee6ba",
+    "revision": "e064fd71df940272371973ddc164db01",
+    "url": "/framer30/static/media/day07_sticky.e064fd71.gif"
+  },
+  {
+    "revision": "07363f534bc3ec927ed88f408e455842",
     "url": "/framer30/index.html"
   }
 ];
