@@ -15,6 +15,7 @@ import dayFour from './img/day04_hearts.gif'
 import dayFive from './img/day05_safari.gif'
 import daySix from './img/day06_align.gif'
 import daySeven from './img/day07_sticky.gif'
+import dayEight from './img/day08_cardflip.gif'
 import blank from './img/blank.png'
 
 class App extends Component {
@@ -65,10 +66,10 @@ class App extends Component {
       image: daySeven
     },{
       day: "DAY 08",
-      title: "Coming Soon",
-      description: "Stay tuned for more prototypes created with FramerX and React.js.",
-      githubLink: "https://github.com/hermy0211/framer30-code",
-      image: blank
+      title: "Card Flip Interaction",
+      description: "I decided to do something a bit more design oriented today, instead of focusing on complex code. Here is an interaction for a vocabulary app.",
+      githubLink: "https://github.com/hermy0211/framer30-code/tree/master/Day%2008%20Card%20Flip",
+      image: dayEight
     },{
       day: "DAY 09",
       title: "Coming Soon",
