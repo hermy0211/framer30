@@ -14,6 +14,7 @@ import dayThree from './img/day03_circlemenu.gif'
 import dayFour from './img/day04_hearts.gif'
 import dayFive from './img/day05_safari.gif'
 import daySix from './img/day06_align.gif'
+import daySeven from './img/day07_sticky.gif'
 import blank from './img/blank.png'
 
 class App extends Component {
@@ -58,10 +59,10 @@ class App extends Component {
       image: daySix
     },{
       day: "DAY 07",
-      title: "Coming Soon",
-      description: "Stay tuned for more prototypes created with FramerX and React.js.",
-      githubLink: "https://github.com/hermy0211/framer30-code",
-      image: blank
+      title: "Sticky Header Animation",
+      description: "This one is still a bit glitchy, but it was a great way to learn about React.cloneElement() and the Framer Scroll component.",
+      githubLink: "https://github.com/hermy0211/framer30-code/tree/master/Day%2007%20Sticky%20Headers",
+      image: daySeven
     },{
       day: "DAY 08",
       title: "Coming Soon",
