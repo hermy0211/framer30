@@ -16,6 +16,7 @@ import dayFive from './img/day05_safari.gif'
 import daySix from './img/day06_align.gif'
 import daySeven from './img/day07_sticky.gif'
 import dayEight from './img/day08_cardflip.gif'
+import dayNine from './img/day09_slider.gif'
 import blank from './img/blank.png'
 
 class App extends Component {
@@ -72,10 +73,10 @@ class App extends Component {
       image: dayEight
     },{
       day: "DAY 09",
-      title: "Coming Soon",
-      description: "Stay tuned for more prototypes created with FramerX and React.js.",
-      githubLink: "https://github.com/hermy0211/framer30-code",
-      image: blank
+      title: "Slider UI",
+      description: "For this prototype, I used the slider component from the store and changed it around a bit so my UI would stay in sync with it.",
+      githubLink: "https://github.com/hermy0211/framer30-code/tree/master/Day%2009%20Slider",
+      image: dayNine
     },{
       day: "DAY 10",
       title: "Coming Soon",
