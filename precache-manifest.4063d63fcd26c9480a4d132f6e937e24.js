@@ -4,12 +4,12 @@ self.__precacheManifest = [
     "url": "/framer30/static/media/day02_card.b590f575.gif"
   },
   {
-    "revision": "0204ee4ac64d49bf94da",
-    "url": "/framer30/static/css/main.a9553da5.chunk.css"
+    "revision": "e8f89c71cd15b6deb138",
+    "url": "/framer30/static/css/main.3dcf1ae7.chunk.css"
   },
   {
-    "revision": "b3566651c2c2c2cc8864",
-    "url": "/framer30/static/js/1.b3566651.chunk.js"
+    "revision": "3c543f5247f24f88a7d2",
+    "url": "/framer30/static/js/1.3c543f52.chunk.js"
   },
   {
     "revision": "9592f2ee4be639ae1fce",
@@ -36,8 +36,8 @@ self.__precacheManifest = [
     "url": "/framer30/static/media/day01_password.7a0cc23a.gif"
   },
   {
-    "revision": "0204ee4ac64d49bf94da",
-    "url": "/framer30/static/js/main.0204ee4a.chunk.js"
+    "revision": "e8f89c71cd15b6deb138",
+    "url": "/framer30/static/js/main.e8f89c71.chunk.js"
   },
   {
     "revision": "4d9bf7d6e389e565c9a4a5357914c6b9",
@@ -68,7 +68,11 @@ self.__precacheManifest = [
     "url": "/framer30/static/media/day09_slider.ba5f2812.gif"
   },
   {
-    "revision": "88a7855d13902cb5447c570b4778a78d",
+    "revision": "4c5e5bb3e9893ef98e3bbfd30f52131f",
+    "url": "/framer30/static/media/day10_favorites.4c5e5bb3.gif"
+  },
+  {
+    "revision": "f309f89eb44a576868ec63a0fbb7a79a",
     "url": "/framer30/index.html"
   }
 ];
