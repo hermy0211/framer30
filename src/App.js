@@ -17,6 +17,7 @@ import daySix from './img/day06_align.gif'
 import daySeven from './img/day07_sticky.gif'
 import dayEight from './img/day08_cardflip.gif'
 import dayNine from './img/day09_slider.gif'
+import dayTen from './img/day10_favorites.gif'
 import blank from './img/blank.png'
 
 class App extends Component {
@@ -79,10 +80,10 @@ class App extends Component {
       image: dayNine
     },{
       day: "DAY 10",
-      title: "Coming Soon",
-      description: "Stay tuned for more prototypes created with FramerX and React.js.",
-      githubLink: "https://github.com/hermy0211/framer30-code",
-      image: blank
+      title: "Favorites Part I",
+      description: "Playing around with Framer's <Draggable> element and the stack feature for today. I initially wanted to create a swipe to delete action. I'll give it another go this weekend.",
+      githubLink: "https://github.com/hermy0211/framer30-code/tree/master/Day%2010%20Favorites",
+      image: dayTen
     }],
     dataThree: [{
       day: "DAY 11",
