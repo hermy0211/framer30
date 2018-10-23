@@ -18,6 +18,7 @@ import daySeven from './img/day07_sticky.gif'
 import dayEight from './img/day08_cardflip.gif'
 import dayNine from './img/day09_slider.gif'
 import dayTen from './img/day10_favorites.gif'
+import dayEleven from './img/day11_tab.gif'
 import blank from './img/blank.png'
 
 class App extends Component {
@@ -87,10 +88,10 @@ class App extends Component {
     }],
     dataThree: [{
       day: "DAY 11",
-      title: "Coming Soon",
-      description: "Stay tuned for more prototypes created with FramerX and React.js.",
-      githubLink: "https://github.com/hermy0211/framer30-code",
-      image: blank
+      title: "Tab Menu Interaction",
+      description: "This prototype was created off of Jay Stakelon's awesome tutorial. It makes great use of the props value which reduces the amount of redundant code.",
+      githubLink: "https://github.com/hermy0211/framer30-code/tree/master/Day%2011%20Tab",
+      image: dayEleven
     },{
       day: "DAY 12",
       title: "Coming Soon",
