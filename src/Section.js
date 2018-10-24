@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import './App.css'
+import iphone from './img/iphone.svg'
 import medium from './img/medium.png'
 import mediumDisabled from './img/medium-disabled.png'
 import github from './img/github.png'
@@ -19,6 +20,7 @@ class Section extends Component {
             <img src={mediumDisabled} className="logo" alt="medium logo"/>
             <a href={project.githubLink} target="_blank" rel="noopener noreferrer" tabIndex="-1"><img src={github} className="logo" alt="github logo"/></a>
           </div>
+          <img src={iphone} className="iphone" alt="iphone"/>
           <img src = {project.image} className="project" alt="Prototype"/>
         </section>
       ))}

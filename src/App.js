@@ -6,7 +6,6 @@ import Section from './Section'
 import cross from './img/cross.png'
 import mouse from './img/mouse.svg'
 import mousescroll from './img/mousescroll.svg'
-import iphone from './img/iphone.svg'
 import close from './img/close.png'
 import dayOne from './img/day01_password.gif'
 import dayTwo from './img/day02_card.gif'
@@ -219,8 +218,6 @@ class App extends Component {
     let menuItems = document.querySelectorAll(".menu-item")
     let elements = [...menuItems]
 
-    scroll.scrollTo(1)
-
     elements.forEach((element) => {
       element.classList.add("color-white")
     })
@@ -232,7 +229,6 @@ class App extends Component {
     let elements = [...menuItems]
     let scroll = document.querySelector(".mouse")
     let scrollText = document.querySelector(".scrolltext")
-    let iphone = document.querySelector(".iphone")
     let detailItems = document.querySelectorAll(".details")
     let details = [...detailItems]
     let windowHeight = this.state.windowHeight
@@ -251,7 +247,6 @@ class App extends Component {
         )
         scroll.classList.add("display-none")
         scrollText.classList.add("display-none")
-        iphone.classList.remove("display-none")
         details.forEach((detail) => {
           detail.classList.remove("display-none")
         })
@@ -267,7 +262,6 @@ class App extends Component {
         )
         scroll.classList.remove("display-none")
         scrollText.classList.remove("display-none")
-        iphone.classList.add("display-none")
         details.forEach((detail) => {
           detail.classList.add("display-none")
         })
@@ -290,16 +284,22 @@ class App extends Component {
     let projects = [...selectProjects]
 
     for (let section of sections) {
-      section.style.top = windowHeight+windowHeight*i*5 + "px"
+      section.style.top = windowHeight+windowHeight*(i)*5 + "px"
       i++
     }
 
     for (let innerSection of innerSections) {
       innerSection.style.top = windowHeight*j + "px"
-      j++
+      if(j==4) {
+        j=0
+      } else {
+        j++
+      }
     }
 
     allSections.style.height = windowHeight*(sections.length)*5 + "px"
+
+    document.getElementById("home").click()
 
     window.addEventListener('keydown', handleKeyPress)
     window.addEventListener('mousewheel', handleMouseWheel, false)
@@ -331,17 +331,6 @@ class App extends Component {
         event.preventDefault()
       }
     }
-
-    // function fadeProjects (time) {
-    //   projects.forEach((project) => {
-    //     project.classList.add("display-none")
-    //   })
-    //   setTimeout(() => {
-    //     projects.forEach((project)=>{
-    //       project.classList.remove("display-none")
-    //     })
-    //   }, time)
-    // }
   }
 
   resetHeight = () => {
@@ -377,7 +366,7 @@ class App extends Component {
         <Element
           name="sectionOne"
           className="main-section">
-          <section className="main inner-section">
+          <section className="main first-inner-section">
             <div className="info">
               <div className="title">
                 <div className="framer">FramerX</div>
@@ -444,12 +433,8 @@ class App extends Component {
           <div className="sidemenu">
             <Link
               to="sectionOne"
-              activeClass="selected"
-              spy={true}
-              smooth={true}
-              duration={1500}
-              className="menu-item">
-              Home
+              className="menu-item-hidden"
+              id="home">
             </Link>
             <Link
               to="sectionTwo"
@@ -502,7 +487,6 @@ class App extends Component {
             © Anne Lee, 2018
           </div>
         </div>
-        <img src={iphone} className="iphone display-none" alt="iphone"/>
         <div className="about-layer overlay">
           <div className="introduction">
             <div className="introduction-inner">
