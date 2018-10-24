@@ -18,6 +18,7 @@ import dayEight from './img/day08_cardflip.gif'
 import dayNine from './img/day09_slider.gif'
 import dayTen from './img/day10_favorites.gif'
 import dayEleven from './img/day11_tab.gif'
+import dayTwelve from './img/day12_cardscroll.gif'
 import blank from './img/blank.png'
 
 class App extends Component {
@@ -93,10 +94,10 @@ class App extends Component {
       image: dayEleven
     },{
       day: "DAY 12",
-      title: "Coming Soon",
-      description: "Stay tuned for more prototypes created with FramerX and React.js.",
-      githubLink: "https://github.com/hermy0211/framer30-code",
-      image: blank
+      title: "Card Scroll on Tap",
+      description: "In this prototype, I practiced what I learned yesterday about using props. You can tap the left or right to scroll between the cards.",
+      githubLink: "https://github.com/hermy0211/framer30-code/tree/master/Day%2012%20Card%20Scroll",
+      image: dayTwelve
     },{
       day: "DAY 13",
       title: "Coming Soon",
