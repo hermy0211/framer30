@@ -1,9 +1,9 @@
 {
-  "main.css": "/framer30/static/css/main.f06e775b.chunk.css",
-  "main.js": "/framer30/static/js/main.2546f682.chunk.js",
-  "main.js.map": "/framer30/static/js/main.2546f682.chunk.js.map",
-  "static/js/1.55b1fe36.chunk.js": "/framer30/static/js/1.55b1fe36.chunk.js",
-  "static/js/1.55b1fe36.chunk.js.map": "/framer30/static/js/1.55b1fe36.chunk.js.map",
+  "main.css": "/framer30/static/css/main.a8c1cc3b.chunk.css",
+  "main.js": "/framer30/static/js/main.6a48c93a.chunk.js",
+  "main.js.map": "/framer30/static/js/main.6a48c93a.chunk.js.map",
+  "static/js/1.4c890688.chunk.js": "/framer30/static/js/1.4c890688.chunk.js",
+  "static/js/1.4c890688.chunk.js.map": "/framer30/static/js/1.4c890688.chunk.js.map",
   "runtime~main.js": "/framer30/static/js/runtime~main.9592f2ee.js",
   "runtime~main.js.map": "/framer30/static/js/runtime~main.9592f2ee.js.map",
   "static/media/day10_favorites.gif": "/framer30/static/media/day10_favorites.4c5e5bb3.gif",
@@ -21,8 +21,9 @@
   "static/media/day09_slider.gif": "/framer30/static/media/day09_slider.ba5f2812.gif",
   "static/media/iphone.svg": "/framer30/static/media/iphone.59522ab6.svg",
   "static/media/day11_tab.gif": "/framer30/static/media/day11_tab.1c198b4c.gif",
-  "static/css/main.f06e775b.chunk.css.map": "/framer30/static/css/main.f06e775b.chunk.css.map",
+  "static/media/day12_cardscroll.gif": "/framer30/static/media/day12_cardscroll.d7c30110.gif",
+  "static/css/main.a8c1cc3b.chunk.css.map": "/framer30/static/css/main.a8c1cc3b.chunk.css.map",
   "index.html": "/framer30/index.html",
-  "precache-manifest.3cde8fca72dc7202aea04851a5002252.js": "/framer30/precache-manifest.3cde8fca72dc7202aea04851a5002252.js",
+  "precache-manifest.da028acdde54498a310e2b1562e06d93.js": "/framer30/precache-manifest.da028acdde54498a310e2b1562e06d93.js",
   "service-worker.js": "/framer30/service-worker.js"
 }
