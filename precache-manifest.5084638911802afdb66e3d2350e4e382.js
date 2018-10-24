@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/framer30/static/media/day03_circlemenu.4d9bf7d6.gif"
   },
   {
-    "revision": "ffd41ecd5e68cf4114b8",
-    "url": "/framer30/static/css/main.4a891bf3.chunk.css"
+    "revision": "8ea2995ce679447322ba",
+    "url": "/framer30/static/css/main.6e74c606.chunk.css"
   },
   {
     "revision": "aa26ff0924fae78bf0e2",
@@ -20,16 +20,16 @@ self.__precacheManifest = [
     "url": "/framer30/static/media/blank.5271b25f.png"
   },
   {
+    "revision": "59522ab635d3b54ea908d32d1824b874",
+    "url": "/framer30/static/media/iphone.59522ab6.svg"
+  },
+  {
     "revision": "8ddac20cfbdc29a9e33d28ec0b4e693f",
     "url": "/framer30/static/media/mouse.8ddac20c.svg"
   },
   {
     "revision": "d955d3b0a4cc7032461d0e07955f8b87",
     "url": "/framer30/static/media/mousescroll.d955d3b0.svg"
-  },
-  {
-    "revision": "59522ab635d3b54ea908d32d1824b874",
-    "url": "/framer30/static/media/iphone.59522ab6.svg"
   },
   {
     "revision": "7a0cc23aa7bec82f9a2b1afcb9f2b279",
@@ -40,8 +40,8 @@ self.__precacheManifest = [
     "url": "/framer30/static/media/day02_card.b590f575.gif"
   },
   {
-    "revision": "ffd41ecd5e68cf4114b8",
-    "url": "/framer30/static/js/main.ffd41ecd.chunk.js"
+    "revision": "8ea2995ce679447322ba",
+    "url": "/framer30/static/js/main.8ea2995c.chunk.js"
   },
   {
     "revision": "d3822122f666fdc7c3ac634c5ad31385",
@@ -76,7 +76,7 @@ self.__precacheManifest = [
     "url": "/framer30/static/media/day11_tab.1c198b4c.gif"
   },
   {
-    "revision": "19e7d19e5a921a5d0c23ef1dbcc9e943",
+    "revision": "34f8ecffa7db1d3de8bfe2cd3f648093",
     "url": "/framer30/index.html"
   }
 ];
