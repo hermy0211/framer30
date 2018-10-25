@@ -19,6 +19,7 @@ import dayNine from './img/day09_slider.gif'
 import dayTen from './img/day10_favorites.gif'
 import dayEleven from './img/day11_tab.gif'
 import dayTwelve from './img/day12_cardscroll.gif'
+import dayThirteen from './img/day13_calendar.gif'
 import blank from './img/blank.png'
 
 class App extends Component {
@@ -100,10 +101,10 @@ class App extends Component {
       image: dayTwelve
     },{
       day: "DAY 13",
-      title: "Coming Soon",
-      description: "Stay tuned for more prototypes created with FramerX and React.js.",
-      githubLink: "https://github.com/hermy0211/framer30-code",
-      image: blank
+      title: "Calendar Animation",
+      description: "Yesterday, Framer announced an all new Pages feature and I had to try it out! Turns out it's not just for card UI; it's incredibly helpful with creating sheet interactions too.",
+      githubLink: "https://github.com/hermy0211/framer30-code/tree/master/Day%2013%20Calendar",
+      image: dayThirteen
     },{
       day: "DAY 14",
       title: "Coming Soon",
