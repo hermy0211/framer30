@@ -21,6 +21,7 @@ import dayEleven from './img/day11_tab.gif'
 import dayTwelve from './img/day12_cardscroll.gif'
 import dayThirteen from './img/day13_calendar.gif'
 import dayFourteen from './img/day14_parallax.gif'
+import dayFifteen from './img/day15_music.gif'
 import blank from './img/blank.png'
 
 class App extends Component {
@@ -114,10 +115,10 @@ class App extends Component {
       image: dayFourteen
     },{
       day: "DAY 15",
-      title: "Coming Soon",
-      description: "Stay tuned for more prototypes created with FramerX and React.js.",
-      githubLink: "https://github.com/hermy0211/framer30-code",
-      image: blank
+      title: "Music Player Interaction",
+      description: "Sometimes the best of interactions are not made of complex code, but takes a lot of time to fine tune the details. I learned so much from breaking apart Apple Music's music player, shown in this example.",
+      githubLink: "https://github.com/hermy0211/framer30-code/tree/master/Day%2015%20Music",
+      image: dayFifteen
     }],
     dataFour: [{
       day: "DAY 16",
