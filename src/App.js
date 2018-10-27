@@ -20,6 +20,7 @@ import dayTen from './img/day10_favorites.gif'
 import dayEleven from './img/day11_tab.gif'
 import dayTwelve from './img/day12_cardscroll.gif'
 import dayThirteen from './img/day13_calendar.gif'
+import dayFourteen from './img/day14_parallax.gif'
 import blank from './img/blank.png'
 
 class App extends Component {
@@ -107,10 +108,10 @@ class App extends Component {
       image: dayThirteen
     },{
       day: "DAY 14",
-      title: "Coming Soon",
-      description: "Stay tuned for more prototypes created with FramerX and React.js.",
-      githubLink: "https://github.com/hermy0211/framer30-code",
-      image: blank
+      title: "Parallax Scrolling within Cards",
+      description: "The page component works perfectly with the parallax component from the store. Here's a little fancy animation you could use to add extra detail to your swipe.",
+      githubLink: "https://github.com/hermy0211/framer30-code/tree/master/Day%2014%20Parallax",
+      image: dayFourteen
     },{
       day: "DAY 15",
       title: "Coming Soon",
