@@ -4,12 +4,12 @@ self.__precacheManifest = [
     "url": "/framer30/static/media/day05_safari.75a3d8bb.gif"
   },
   {
-    "revision": "e0b2454a62ece44a0353",
-    "url": "/framer30/static/css/main.32454f10.chunk.css"
+    "revision": "c4bb4b6e04c21629db17",
+    "url": "/framer30/static/css/main.97b89a15.chunk.css"
   },
   {
-    "revision": "97230e0d0a5a44ccbbc0",
-    "url": "/framer30/static/js/1.97230e0d.chunk.js"
+    "revision": "b2cf6b877e54dcf17aca",
+    "url": "/framer30/static/js/1.b2cf6b87.chunk.js"
   },
   {
     "revision": "9592f2ee4be639ae1fce",
@@ -48,8 +48,8 @@ self.__precacheManifest = [
     "url": "/framer30/static/media/day04_hearts.d3822122.gif"
   },
   {
-    "revision": "e0b2454a62ece44a0353",
-    "url": "/framer30/static/js/main.e0b2454a.chunk.js"
+    "revision": "c4bb4b6e04c21629db17",
+    "url": "/framer30/static/js/main.c4bb4b6e.chunk.js"
   },
   {
     "revision": "d98004df95616298f0a460737d109e58",
@@ -68,8 +68,8 @@ self.__precacheManifest = [
     "url": "/framer30/static/media/day09_slider.ba5f2812.gif"
   },
   {
-    "revision": "4c5e5bb3e9893ef98e3bbfd30f52131f",
-    "url": "/framer30/static/media/day10_favorites.4c5e5bb3.gif"
+    "revision": "8e6c0d87b279cb178bc33bbae872be87",
+    "url": "/framer30/static/media/day10_favorites.8e6c0d87.gif"
   },
   {
     "revision": "1c198b4c3b79c4ed08945734b68d019e",
@@ -92,11 +92,7 @@ self.__precacheManifest = [
     "url": "/framer30/static/media/day15_music.babe14b6.gif"
   },
   {
-    "revision": "8e6c0d87b279cb178bc33bbae872be87",
-    "url": "/framer30/static/media/day16_favorites.8e6c0d87.gif"
-  },
-  {
-    "revision": "dd4a2c60ceb0ad2d99b0a0eabd240e4f",
+    "revision": "8f47d9284cacbbb283ce3081cc8c7320",
     "url": "/framer30/index.html"
   }
 ];
