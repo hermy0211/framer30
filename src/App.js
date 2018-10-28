@@ -22,7 +22,6 @@ import dayTwelve from './img/day12_cardscroll.gif'
 import dayThirteen from './img/day13_calendar.gif'
 import dayFourteen from './img/day14_parallax.gif'
 import dayFifteen from './img/day15_music.gif'
-import daySixteen from './img/day16_favorites.gif'
 import blank from './img/blank.png'
 
 class App extends Component {
@@ -85,8 +84,8 @@ class App extends Component {
       image: dayNine
     },{
       day: "DAY 10",
-      title: "Favorites Part I",
-      description: "Playing around with Framer's <Draggable> element and the stack feature for today. I initially wanted to create a swipe to delete action. I'll give it another go this weekend.",
+      title: "Favorites",
+      description: "Here's a simple list that 'deletes' the card when it is unliked. Please note that this prototype only works with the topmost card.",
       githubLink: "https://github.com/hermy0211/framer30-code/tree/master/Day%2010%20Favorites",
       image: dayTen
     }],
@@ -123,10 +122,10 @@ class App extends Component {
     }],
     dataFour: [{
       day: "DAY 16",
-      title: "Favorites Part II",
-      description: "Yet another attempt at the favorites list; still not 100% successful. Please note that this prototype only works with the first element of the list.",
-      githubLink: "https://github.com/hermy0211/framer30-code/tree/master/Day%2016%20Favorites",
-      image: daySixteen
+      title: "Coming Soon",
+      description: "Stay tuned for more prototypes created with FramerX and React.js.",
+      githubLink: "https://github.com/hermy0211/framer30-code",
+      image: blank
     },{
       day: "DAY 17",
       title: "Coming Soon",
