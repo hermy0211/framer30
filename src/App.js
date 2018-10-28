@@ -22,6 +22,7 @@ import dayTwelve from './img/day12_cardscroll.gif'
 import dayThirteen from './img/day13_calendar.gif'
 import dayFourteen from './img/day14_parallax.gif'
 import dayFifteen from './img/day15_music.gif'
+import daySixteen from './img/day16_favorites.gif'
 import blank from './img/blank.png'
 
 class App extends Component {
@@ -122,10 +123,10 @@ class App extends Component {
     }],
     dataFour: [{
       day: "DAY 16",
-      title: "Coming Soon",
-      description: "Stay tuned for more prototypes created with FramerX and React.js.",
-      githubLink: "https://github.com/hermy0211/framer30-code",
-      image: blank
+      title: "Favorites Part II",
+      description: "Yet another attempt at the favorites list; still not 100% successful. Please note that this prototype only works with the first element of the list.",
+      githubLink: "https://github.com/hermy0211/framer30-code/tree/master/Day%2016%20Favorites",
+      image: daySixteen
     },{
       day: "DAY 17",
       title: "Coming Soon",
