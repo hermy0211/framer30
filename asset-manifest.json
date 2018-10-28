@@ -1,9 +1,9 @@
 {
-  "main.css": "/framer30/static/css/main.97b89a15.chunk.css",
-  "main.js": "/framer30/static/js/main.297182aa.chunk.js",
-  "main.js.map": "/framer30/static/js/main.297182aa.chunk.js.map",
-  "static/js/1.b2cf6b87.chunk.js": "/framer30/static/js/1.b2cf6b87.chunk.js",
-  "static/js/1.b2cf6b87.chunk.js.map": "/framer30/static/js/1.b2cf6b87.chunk.js.map",
+  "main.css": "/framer30/static/css/main.32454f10.chunk.css",
+  "main.js": "/framer30/static/js/main.e0b2454a.chunk.js",
+  "main.js.map": "/framer30/static/js/main.e0b2454a.chunk.js.map",
+  "static/js/1.97230e0d.chunk.js": "/framer30/static/js/1.97230e0d.chunk.js",
+  "static/js/1.97230e0d.chunk.js.map": "/framer30/static/js/1.97230e0d.chunk.js.map",
   "runtime~main.js": "/framer30/static/js/runtime~main.9592f2ee.js",
   "runtime~main.js.map": "/framer30/static/js/runtime~main.9592f2ee.js.map",
   "static/media/day12_cardscroll.gif": "/framer30/static/media/day12_cardscroll.d7c30110.gif",
@@ -25,8 +25,9 @@
   "static/media/day13_calendar.gif": "/framer30/static/media/day13_calendar.5b0dc44c.gif",
   "static/media/day14_parallax.gif": "/framer30/static/media/day14_parallax.de8faa22.gif",
   "static/media/day15_music.gif": "/framer30/static/media/day15_music.babe14b6.gif",
-  "static/css/main.97b89a15.chunk.css.map": "/framer30/static/css/main.97b89a15.chunk.css.map",
+  "static/media/day16_favorites.gif": "/framer30/static/media/day16_favorites.8e6c0d87.gif",
+  "static/css/main.32454f10.chunk.css.map": "/framer30/static/css/main.32454f10.chunk.css.map",
   "index.html": "/framer30/index.html",
-  "precache-manifest.43f6443709e375468eb4394825eadce6.js": "/framer30/precache-manifest.43f6443709e375468eb4394825eadce6.js",
+  "precache-manifest.ac04e4888397e2cef7081d8ebd754a0c.js": "/framer30/precache-manifest.ac04e4888397e2cef7081d8ebd754a0c.js",
   "service-worker.js": "/framer30/service-worker.js"
 }
