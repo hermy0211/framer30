@@ -1,7 +1,7 @@
 {
   "main.css": "/framer30/static/css/main.b84a3e24.chunk.css",
-  "main.js": "/framer30/static/js/main.42eacd52.chunk.js",
-  "main.js.map": "/framer30/static/js/main.42eacd52.chunk.js.map",
+  "main.js": "/framer30/static/js/main.c600fc17.chunk.js",
+  "main.js.map": "/framer30/static/js/main.c600fc17.chunk.js.map",
   "static/js/1.ba673522.chunk.js": "/framer30/static/js/1.ba673522.chunk.js",
   "static/js/1.ba673522.chunk.js.map": "/framer30/static/js/1.ba673522.chunk.js.map",
   "runtime~main.js": "/framer30/static/js/runtime~main.9592f2ee.js",
@@ -26,9 +26,9 @@
   "static/media/day14_parallax.gif": "/framer30/static/media/day14_parallax.de8faa22.gif",
   "static/media/day15_music.gif": "/framer30/static/media/day15_music.babe14b6.gif",
   "static/media/day16_longtap.gif": "/framer30/static/media/day16_longtap.d2f9acaf.gif",
-  "static/media/day17_todolist.gif": "/framer30/static/media/day17_todolist.ac2ce01a.gif",
+  "static/media/day17_todolist.gif": "/framer30/static/media/day17_todolist.6426afef.gif",
   "static/css/main.b84a3e24.chunk.css.map": "/framer30/static/css/main.b84a3e24.chunk.css.map",
   "index.html": "/framer30/index.html",
-  "precache-manifest.0d6d00866b233fed58de4657110e5248.js": "/framer30/precache-manifest.0d6d00866b233fed58de4657110e5248.js",
+  "precache-manifest.2314b180a0e301fde10222a6bd852eda.js": "/framer30/precache-manifest.2314b180a0e301fde10222a6bd852eda.js",
   "service-worker.js": "/framer30/service-worker.js"
 }
