@@ -131,7 +131,7 @@ class App extends Component {
     },{
       day: "DAY 17",
       title: "To-Do List",
-      description: "Went back to some basic overrides today. What I love about Framer X is how the built in tools are pretty sufficient to create basic interactions.",
+      description: "I was so excited to find out you could dynamically update the current status based on which page you've chosen with onChangePage(event).",
       githubLink: "https://github.com/hermy0211/framer30-code/tree/master/Day%2017%20ToDo%20List",
       image: daySeventeen
     },{
