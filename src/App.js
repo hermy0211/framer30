@@ -23,6 +23,7 @@ import dayThirteen from './img/day13_calendar.gif'
 import dayFourteen from './img/day14_parallax.gif'
 import dayFifteen from './img/day15_music.gif'
 import daySixteen from './img/day16_longtap.gif'
+import daySeventeen from './img/day17_todolist.gif'
 import blank from './img/blank.png'
 
 class App extends Component {
@@ -123,16 +124,16 @@ class App extends Component {
     }],
     dataFour: [{
       day: "DAY 16",
-      title: "Open Menu on Long Tap",
+      title: "Open Menu on Tap",
       description: "When you press onTap, you can pass in an (event: Point) to access the x, y coordinates of your mouse pointer. Here's a fun example using that funcionality.",
       githubLink: "https://github.com/hermy0211/framer30-code/tree/master/Day%2016%20Long%20Tap",
       image: daySixteen
     },{
       day: "DAY 17",
-      title: "Coming Soon",
-      description: "Stay tuned for more prototypes created with FramerX and React.js.",
-      githubLink: "https://github.com/hermy0211/framer30-code",
-      image: blank
+      title: "To-Do List",
+      description: "Went back to some basic overrides today. What I love about Framer X is how the built in tools are pretty sufficient to create basic interactions.",
+      githubLink: "https://github.com/hermy0211/framer30-code/tree/master/Day%2017%20ToDo%20List",
+      image: daySeventeen
     },{
       day: "DAY 18",
       title: "Coming Soon",
