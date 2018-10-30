@@ -4,12 +4,12 @@ self.__precacheManifest = [
     "url": "/framer30/static/media/day06_align.d98004df.gif"
   },
   {
-    "revision": "c600fc1739964497d527",
-    "url": "/framer30/static/css/main.b84a3e24.chunk.css"
+    "revision": "22382a894fcbb6827405",
+    "url": "/framer30/static/css/main.428027e7.chunk.css"
   },
   {
-    "revision": "ba673522f2d942185df1",
-    "url": "/framer30/static/js/1.ba673522.chunk.js"
+    "revision": "7838b3a03c0b50ea2840",
+    "url": "/framer30/static/js/1.7838b3a0.chunk.js"
   },
   {
     "revision": "9592f2ee4be639ae1fce",
@@ -52,8 +52,8 @@ self.__precacheManifest = [
     "url": "/framer30/static/media/day05_safari.75a3d8bb.gif"
   },
   {
-    "revision": "c600fc1739964497d527",
-    "url": "/framer30/static/js/main.c600fc17.chunk.js"
+    "revision": "22382a894fcbb6827405",
+    "url": "/framer30/static/js/main.22382a89.chunk.js"
   },
   {
     "revision": "e064fd71df940272371973ddc164db01",
@@ -100,7 +100,11 @@ self.__precacheManifest = [
     "url": "/framer30/static/media/day17_todolist.6426afef.gif"
   },
   {
-    "revision": "577919aa164423d3ae6dc6cdb296d1bd",
+    "revision": "eaeb9d12f2131e649b5b36d01b7efe28",
+    "url": "/framer30/static/media/day18_stars.eaeb9d12.gif"
+  },
+  {
+    "revision": "6be825d3829cca5261871f4e2fda80ac",
     "url": "/framer30/index.html"
   }
 ];
