@@ -24,6 +24,7 @@ import dayFourteen from './img/day14_parallax.gif'
 import dayFifteen from './img/day15_music.gif'
 import daySixteen from './img/day16_longtap.gif'
 import daySeventeen from './img/day17_todolist.gif'
+import dayEighteen from './img/day18_stars.gif'
 import blank from './img/blank.png'
 
 class App extends Component {
@@ -136,10 +137,10 @@ class App extends Component {
       image: daySeventeen
     },{
       day: "DAY 18",
-      title: "Coming Soon",
-      description: "Stay tuned for more prototypes created with FramerX and React.js.",
-      githubLink: "https://github.com/hermy0211/framer30-code",
-      image: blank
+      title: "Splash Screen Background Animation",
+      description: "Here's something a bit more experimental - a starry background animation that could be used for a splash page. No overrides, just pure CSS.",
+      githubLink: "https://github.com/hermy0211/framer30-code/tree/master/Day%2018%20Stars",
+      image: dayEighteen
     },{
       day: "DAY 19",
       title: "Coming Soon",
