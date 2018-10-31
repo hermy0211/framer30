@@ -25,6 +25,7 @@ import dayFifteen from './img/day15_music.gif'
 import daySixteen from './img/day16_longtap.gif'
 import daySeventeen from './img/day17_todolist.gif'
 import dayEighteen from './img/day18_stars.gif'
+import dayNineteen from './img/day19_keyboard.gif'
 import blank from './img/blank.png'
 
 class App extends Component {
@@ -143,10 +144,10 @@ class App extends Component {
       image: dayEighteen
     },{
       day: "DAY 19",
-      title: "Coming Soon",
-      description: "Stay tuned for more prototypes created with FramerX and React.js.",
-      githubLink: "https://github.com/hermy0211/framer30-code",
-      image: blank
+      title: "Working Keyboard",
+      description: "Today I created a working keyboard prototype for lowercase letters. I would love to come back to this one and add more functionality (i.e. capitals and symbols).",
+      githubLink: "https://github.com/hermy0211/framer30-code/tree/master/Day%2019%20Keyboard",
+      image: dayNineteen
     },{
       day: "DAY 20",
       title: "Coming Soon",
