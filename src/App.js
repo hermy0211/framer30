@@ -128,7 +128,7 @@ class App extends Component {
     dataFour: [{
       day: "DAY 16",
       title: "Open Menu on Tap",
-      description: "When you press onTap, you can pass in an (event: Point) to access the x, y coordinates of your mouse pointer. Here's a fun example using that funcionality.",
+      description: "When you press onTap, you can pass in an (event: Point) to access the x, y coordinates of your mouse pointer. Here's a fun example using that functionality.",
       githubLink: "https://github.com/hermy0211/framer30-code/tree/master/Day%2016%20Long%20Tap",
       image: daySixteen
     },{
@@ -504,7 +504,7 @@ class App extends Component {
                 I am a Product Designer.<br/><br/>
               </p>
               <p className="description">
-                30 Days of Framer is a<br/>
+                30 Days of Framer X is a<br/>
                 prototyping project<br/>
                 in which I create<br/>
                 30 Framer X prototypes<br/>
