@@ -9,6 +9,10 @@
     display: none;
   }
 
+  .main .info {
+    margin-top: -100px;
+  }
+
   .main .info .title {
     font-size: 26px;
   }
@@ -50,10 +54,16 @@
 
   .iphone {
     left: calc(50% - 130px);
+    margin-top: calc(50vh + 100px - 301px);
+    margin-bottom: calc(50vh + 100px - 221px);
   }
 
   .project {
+    z-index: 10;
+    top: 0;
     margin-left: calc(50% - 114px);
+    margin-top: calc(50vh + 100px - 286px);
+    margin-bottom: calc(50vh + 100px - 226px);
   }
 
   .inner-section .details {

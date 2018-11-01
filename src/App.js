@@ -32,6 +32,7 @@ import blank from './img/blank.png'
 class App extends Component {
   state = {
     windowHeight: window.innerHeight,
+    windowWidth: window.innerWidth,
     dataOne: [{
       day: "DAY 01",
       title: "Password Check Interaction",
@@ -289,12 +290,17 @@ class App extends Component {
     let i = 0
     let j = 0
     let windowHeight = this.state.windowHeight
+    let windowWidth = this.state.windowWidth
     let selectProjects = document.querySelectorAll(".project")
     let projects = [...selectProjects]
 
-    // Added +400 for regular scrolling
+    if (windowWidth <= 930) {
+      windowHeight = this.state.windowHeight+200
+    }
+
+    // Added +200 for regular scrolling
     for (let section of sections) {
-      section.style.top = windowHeight+windowHeight*(i)*5+200 + "px"
+      section.style.top = windowHeight+windowHeight*(i)*5+120 + "px"
       i++
     }
 

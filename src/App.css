@@ -257,8 +257,6 @@
 .project {
   position: absolute;
   margin-left: calc(40% - 165px);
-  /* margin-top: calc(50vh - 245px);
-  margin-bottom: calc(50vh - 246px); */
   width: 229px;
   height: 493px;
   transition: opacity 0.1s;
