@@ -26,6 +26,7 @@ import daySixteen from './img/day16_longtap.gif'
 import daySeventeen from './img/day17_todolist.gif'
 import dayEighteen from './img/day18_stars.gif'
 import dayNineteen from './img/day19_keyboard.gif'
+import dayTwenty from './img/day20_pagesync.gif'
 import blank from './img/blank.png'
 
 class App extends Component {
@@ -150,10 +151,10 @@ class App extends Component {
       image: dayNineteen
     },{
       day: "DAY 20",
-      title: "Coming Soon",
-      description: "Stay tuned for more prototypes created with FramerX and React.js.",
-      githubLink: "https://github.com/hermy0211/framer30-code",
-      image: blank
+      title: "Music Player with Dynamic BG",
+      description: "I love how the page tool makes it super easy to keep the background, information, and album art all together in sync. I would love to see if I can also create some custom animations.",
+      githubLink: "https://github.com/hermy0211/framer30-code/tree/master/Day%2020%20Page%20Sync",
+      image: dayTwenty
     }],
     dataFive: [{
       day: "DAY 21",
