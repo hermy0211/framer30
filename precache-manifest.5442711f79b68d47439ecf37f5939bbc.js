@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/framer30/static/media/day07_sticky.e064fd71.gif"
   },
   {
-    "revision": "dfbf5667a2eccebc139d",
-    "url": "/framer30/static/css/main.1d14e444.chunk.css"
+    "revision": "9474297f8ce0ed1a49b8",
+    "url": "/framer30/static/css/main.1a359be3.chunk.css"
   },
   {
     "revision": "ad0cf915805d5b132c16",
@@ -56,8 +56,8 @@ self.__precacheManifest = [
     "url": "/framer30/static/media/day06_align.d98004df.gif"
   },
   {
-    "revision": "dfbf5667a2eccebc139d",
-    "url": "/framer30/static/js/main.dfbf5667.chunk.js"
+    "revision": "9474297f8ce0ed1a49b8",
+    "url": "/framer30/static/js/main.9474297f.chunk.js"
   },
   {
     "revision": "a86454f66cd76f9728f33fcc1d9793fe",
@@ -112,7 +112,7 @@ self.__precacheManifest = [
     "url": "/framer30/static/media/day20_pagesync.87e381cc.gif"
   },
   {
-    "revision": "13530dac11a3355b0cfedef268fabdc1",
+    "revision": "9d1f4988e502626d63e285a8c50b9937",
     "url": "/framer30/index.html"
   }
 ];
