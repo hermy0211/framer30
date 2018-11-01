@@ -2,25 +2,77 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:200,400,700");
 
 @media screen and (max-width: 930px) {
-  .mobile {
-    background-color: black;
-    color: white;
-    height: 100vh;
-    font-weight: 700;
-    text-align: center;
-    align-items: center;
-    display: flex;
-  }
-
-  .mobile p {
-    margin: 0 auto 0 auto;
-  }
-
-  .sections,
   .menus,
   .about-layer,
-  .main-section {
+  .description,
+  .logo {
     display: none;
+  }
+
+  .main .info .title {
+    font-size: 26px;
+  }
+
+  .main .info .title .framer {
+    padding-right: 15px;
+  }
+
+  .main .info .title .cross {
+    width: 20px;
+    height: 20px;
+  }
+
+  .main .info .title .react {
+    padding-left: 15px;
+  }
+
+  .main .info .subtitle {
+    font-size: 20px;
+  }
+
+  .main .info .tags {
+    justify-content: center;
+    margin-top: 40px;
+  }
+
+  .main .info .tags .tag {
+    width: 90px;
+    height: 14px;
+    font-size: 11px;
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+
+  .scroll .scrolltext {
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .iphone {
+    left: calc(50% - 130px);
+  }
+
+  .project {
+    margin-left: calc(50% - 114px);
+  }
+
+  .inner-section .details {
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .inner-section .details .day {
+    padding-left: auto;
+    padding-right: auto;
+    font-size: 16px;
+  }
+
+  .inner-section .details .title {
+    font-size: 20px;
+    margin-top: 5px;
   }
 }
 

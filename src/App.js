@@ -139,7 +139,7 @@ class App extends Component {
       image: daySeventeen
     },{
       day: "DAY 18",
-      title: "Splash Screen Background Animation",
+      title: "Splash Screen BG Animation",
       description: "Here's something a bit more experimental - a starry background animation that could be used for a splash page. No overrides, just pure CSS.",
       githubLink: "https://github.com/hermy0211/framer30-code/tree/master/Day%2018%20Stars",
       image: dayEighteen
@@ -294,7 +294,7 @@ class App extends Component {
 
     // Added +400 for regular scrolling
     for (let section of sections) {
-      section.style.top = windowHeight+windowHeight*(i)*5+400 + "px"
+      section.style.top = windowHeight+windowHeight*(i)*5+200 + "px"
       i++
     }
 
@@ -370,9 +370,6 @@ class App extends Component {
   render() {
     return (
       <div className="App bg-color-black">
-        <div className="mobile">
-          <p>Please view this page on a PC.</p>
-        </div>
         <Element
           name="sectionOne"
           className="main-section">
@@ -380,7 +377,7 @@ class App extends Component {
             <div className="info">
               <div className="title">
                 <div className="framer">FramerX</div>
-                <img src={cross} alt="cross"/>
+                <img src={cross} alt="cross" className="cross"/>
                 <div className="react">React.js</div>
               </div>
               <div className="subtitle">
