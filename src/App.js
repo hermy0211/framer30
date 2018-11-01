@@ -292,8 +292,9 @@ class App extends Component {
     let selectProjects = document.querySelectorAll(".project")
     let projects = [...selectProjects]
 
+    // Added +400 for regular scrolling
     for (let section of sections) {
-      section.style.top = windowHeight+windowHeight*(i)*5 + "px"
+      section.style.top = windowHeight+windowHeight*(i)*5+400 + "px"
       i++
     }
 
@@ -310,36 +311,36 @@ class App extends Component {
 
     document.getElementById("home").click()
 
-    window.addEventListener('keydown', handleKeyPress)
-    window.addEventListener('mousewheel', handleMouseWheel, false)
-    window.addEventListener('DOMMouseScroll', handleMouseWheel, false)
-
-    function handleMouseWheel (event) {
-      const e = window.event || event;
-      const delta = Math.max(-1, Math.min(1, e.wheelDelta || -e.detail));
-
-      if (delta === -1) {
-        event.preventDefault()
-        scroll.scrollMore(windowHeight, {duration: 400})
-      } else if (delta === 1) {
-        event.preventDefault()
-        scroll.scrollMore(-windowHeight, {duration: 400})
-      } else {
-        event.preventDefault()
-      }
-    }
-
-    function handleKeyPress (event) {
-      if(event.keyCode === 40) {
-        event.preventDefault()
-        scroll.scrollMore(windowHeight, {duration: 400})
-      } else if (event.keyCode === 38) {
-        event.preventDefault()
-        scroll.scrollMore(-windowHeight, {duration: 400})
-      } else if (event.keyCode === 32) {
-        event.preventDefault()
-      }
-    }
+    // window.addEventListener('keydown', handleKeyPress)
+    // window.addEventListener('mousewheel', handleMouseWheel, false)
+    // window.addEventListener('DOMMouseScroll', handleMouseWheel, false)
+    //
+    // function handleMouseWheel (event) {
+    //   const e = window.event || event;
+    //   const delta = Math.max(-1, Math.min(1, e.wheelDelta || -e.detail));
+    //
+    //   if (delta === -1) {
+    //     event.preventDefault()
+    //     scroll.scrollMore(windowHeight, {duration: 400})
+    //   } else if (delta === 1) {
+    //     event.preventDefault()
+    //     scroll.scrollMore(-windowHeight, {duration: 400})
+    //   } else {
+    //     event.preventDefault()
+    //   }
+    // }
+    //
+    // function handleKeyPress (event) {
+    //   if(event.keyCode === 40) {
+    //     event.preventDefault()
+    //     scroll.scrollMore(windowHeight, {duration: 400})
+    //   } else if (event.keyCode === 38) {
+    //     event.preventDefault()
+    //     scroll.scrollMore(-windowHeight, {duration: 400})
+    //   } else if (event.keyCode === 32) {
+    //     event.preventDefault()
+    //   }
+    // }
   }
 
   resetHeight = () => {
