@@ -2,9 +2,9 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:200,400,700");
 
 @media screen and (max-width: 930px) {
-  .menus,
-  .about-layer,
-  .description,
+  .sidemenu,
+  .copyright,
+  .inner-section .details .description,
   .logo {
     display: none;
   }
@@ -52,18 +52,99 @@
     font-weight: 400;
   }
 
+  .menus .about {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    height: 40px;
+    width: 80px;
+    border-radius: 30px;
+    font-size: 14px;
+  }
+
+  .about-layer {
+    width: calc(100% - 50px);
+    height: calc(100vh - 50px);
+    left: 25px;
+    top: 25px;
+  }
+
+  .about-layer .connect {
+    width: 100%;
+    height: 50%;
+  }
+
+  .about-layer .connect .connect-inner {
+    width: 260px;
+    height: 180px;
+  }
+
+  .about-layer .connect .connect-inner .connect-title {
+    font-size: 20px;
+    margin: 0px 0px 20px 0px;
+  }
+
+  .about-layer .connect .connect-inner a {
+    font-size: 20px;
+    margin-bottom: 11px;
+  }
+
+  .about-layer button {
+    width: 30px;
+    height: 30px;
+  }
+
+  .about-layer .close {
+    right: 35px;
+    top: 35px;
+    width: 30px;
+    height: 30px;
+  }
+
+  .about-layer .close-image {
+    width: 30px;
+    height: 30px;
+  }
+
+  .about-layer .introduction {
+    width: 100%;
+    height: 50%;
+    top: calc(50vh - 25px);
+  }
+
+  .about-layer .introduction .introduction-inner {
+    width: 260px;
+    height: 180px;
+  }
+
+  .about-layer .introduction .introduction-inner .title {
+    font-size: 20px;
+    margin: 0px 0px 24px 0px;
+    height: 50px;
+  }
+
+  .about-layer .introduction .introduction-inner .description {
+    font-size: 17px;
+    margin: 0px 0px 0px 0px;
+    height: 96px;
+  }
+
+  .about-layer .introduction .introduction-inner .credit {
+    display: none;
+  }
+
   .iphone {
     left: calc(50% - 130px);
-    margin-top: calc(50vh + 100px - 301px);
-    margin-bottom: calc(50vh + 100px - 221px);
+    margin-top: calc(50vh + 60px - 301px);
+    margin-bottom: calc(50vh + 60px - 221px);
   }
 
   .project {
     z-index: 10;
     top: 0;
     margin-left: calc(50% - 114px);
-    margin-top: calc(50vh + 100px - 286px);
-    margin-bottom: calc(50vh + 100px - 226px);
+    margin-top: calc(50vh + 60px - 286px);
+    margin-bottom: calc(50vh + 60px - 226px);
   }
 
   .inner-section .details {
@@ -87,7 +168,22 @@
 }
 
 @media screen and (min-width: 931px) {
-  .mobile {
-    display: none;
+  .about-layer .connect .connect-inner a:focus {
+    outline: none;
+  }
+
+  .about-layer .connect .connect-inner a:focus::before {
+    content: "―― ";
+    color: #0053FF;
+    outline: none;
+  }
+
+  .about-layer .connect .connect-inner a:hover {
+    cursor: pointer;
+  }
+
+  .about-layer .connect .connect-inner a:hover::before {
+    content: "―― ";
+    color: #0053FF;
   }
 }

@@ -322,7 +322,7 @@
 
 .about-layer {
   position: fixed;
-  z-index: 100;
+  z-index: 200;
   width: calc(100% - 100px);
   height: calc(100vh - 100px);
   left: 50px;
@@ -400,25 +400,6 @@
   font-size: 28px;
   margin-bottom: 11px;
   font-weight: 700;
-}
-
-.about-layer .connect .connect-inner a:focus {
-  outline: none;
-}
-
-.about-layer .connect .connect-inner a:focus::before {
-  content: "―― ";
-  color: #0053FF;
-  outline: none;
-}
-
-.about-layer .connect .connect-inner a:hover {
-  cursor: pointer;
-}
-
-.about-layer .connect .connect-inner a:hover::before {
-  content: "―― ";
-  color: #0053FF;
 }
 
 .about-layer button {

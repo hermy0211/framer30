@@ -361,7 +361,7 @@ class App extends Component {
     const menus = document.querySelector(".menus")
     popup.classList.add("show")
     sections.classList.add("hide")
-    menus.classList.add("hide")
+    // menus.classList.add("hide")
   }
 
   closeAbout = () => {
@@ -370,7 +370,7 @@ class App extends Component {
     const menus = document.querySelector(".menus")
     popup.classList.remove("show")
     sections.classList.remove("hide")
-    menus.classList.remove("hide")
+    // menus.classList.remove("hide")
   }
 
   render() {
@@ -530,7 +530,7 @@ class App extends Component {
               <a href="mailto:hermy0211@naver.com" target="_blank" rel="noopener noreferrer" className="social">Email</a>
             </div>
           </div>
-          <button onClick={this.closeAbout} className="close" tabIndex="-1"><img src={close} alt="close"/></button>
+          <button onClick={this.closeAbout} className="close" tabIndex="-1"><img src={close} alt="close" className="close-image"/></button>
         </div>
       </div>
     );
