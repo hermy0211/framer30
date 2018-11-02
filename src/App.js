@@ -27,6 +27,7 @@ import daySeventeen from './img/day17_todolist.gif'
 import dayEighteen from './img/day18_stars.gif'
 import dayNineteen from './img/day19_keyboard.gif'
 import dayTwenty from './img/day20_pagesync.gif'
+import dayTwentyOne from './img/day21_async.gif'
 import blank from './img/blank.png'
 
 class App extends Component {
@@ -159,10 +160,10 @@ class App extends Component {
     }],
     dataFive: [{
       day: "DAY 21",
-      title: "Coming Soon",
-      description: "Stay tuned for more prototypes created with FramerX and React.js.",
-      githubLink: "https://github.com/hermy0211/framer30-code",
-      image: blank
+      title: "Animate on Load",
+      description: "Ji Young Min came up with a great way to animate things when the page loads and shared it with the Framer group, so I decided to try it out. Works like a charm!",
+      githubLink: "https://github.com/hermy0211/framer30-code/tree/master/Day%2021%20Animation%20on%20Load",
+      image: dayTwentyOne
     },{
       day: "DAY 22",
       title: "Coming Soon",
