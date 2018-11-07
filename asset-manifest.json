@@ -1,9 +1,9 @@
 {
-  "main.css": "/framer30/static/css/main.3508ad9b.chunk.css",
-  "main.js": "/framer30/static/js/main.ebc845ec.chunk.js",
-  "main.js.map": "/framer30/static/js/main.ebc845ec.chunk.js.map",
-  "static/js/1.92501937.chunk.js": "/framer30/static/js/1.92501937.chunk.js",
-  "static/js/1.92501937.chunk.js.map": "/framer30/static/js/1.92501937.chunk.js.map",
+  "main.css": "/framer30/static/css/main.dc0fbfdf.chunk.css",
+  "main.js": "/framer30/static/js/main.27dbf445.chunk.js",
+  "main.js.map": "/framer30/static/js/main.27dbf445.chunk.js.map",
+  "static/js/1.68af3e87.chunk.js": "/framer30/static/js/1.68af3e87.chunk.js",
+  "static/js/1.68af3e87.chunk.js.map": "/framer30/static/js/1.68af3e87.chunk.js.map",
   "runtime~main.js": "/framer30/static/js/runtime~main.9592f2ee.js",
   "runtime~main.js.map": "/framer30/static/js/runtime~main.9592f2ee.js.map",
   "static/media/day15_music.gif": "/framer30/static/media/day15_music.babe14b6.gif",
@@ -31,8 +31,9 @@
   "static/media/day19_keyboard.gif": "/framer30/static/media/day19_keyboard.5a5dea6c.gif",
   "static/media/day20_pagesync.gif": "/framer30/static/media/day20_pagesync.87e381cc.gif",
   "static/media/day21_async.gif": "/framer30/static/media/day21_async.7a616422.gif",
-  "static/css/main.3508ad9b.chunk.css.map": "/framer30/static/css/main.3508ad9b.chunk.css.map",
+  "static/media/day22_grid.gif": "/framer30/static/media/day22_grid.c0c7ad28.gif",
+  "static/css/main.dc0fbfdf.chunk.css.map": "/framer30/static/css/main.dc0fbfdf.chunk.css.map",
   "index.html": "/framer30/index.html",
-  "precache-manifest.1bc560fbad6b2666aca9b17c76290e4f.js": "/framer30/precache-manifest.1bc560fbad6b2666aca9b17c76290e4f.js",
+  "precache-manifest.8066a45b990d7391ba01f203088b0926.js": "/framer30/precache-manifest.8066a45b990d7391ba01f203088b0926.js",
   "service-worker.js": "/framer30/service-worker.js"
 }
