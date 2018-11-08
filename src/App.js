@@ -29,6 +29,7 @@ import dayNineteen from './img/day19_keyboard.gif'
 import dayTwenty from './img/day20_pagesync.gif'
 import dayTwentyOne from './img/day21_async.gif'
 import dayTwentyTwo from './img/day22_grid.gif'
+import dayTwentyThree from './img/day23_clip.gif'
 import blank from './img/blank.png'
 
 class App extends Component {
@@ -173,10 +174,10 @@ class App extends Component {
       image: dayTwentyTwo
     },{
       day: "DAY 23",
-      title: "Coming Soon",
-      description: "Stay tuned for more prototypes created with FramerX and React.js.",
-      githubLink: "https://github.com/hermy0211/framer30-code",
-      image: blank
+      title: "Circular Clipping Animation",
+      description: "Today I challenged myself to create a circular clipping animation. It was trickier than I thought. It required a lot of tinkering around with the order of the animations.",
+      githubLink: "https://github.com/hermy0211/framer30-code/tree/master/Day%2023%20Clipping",
+      image: dayTwentyThree
     },{
       day: "DAY 24",
       title: "Coming Soon",
