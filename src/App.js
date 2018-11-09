@@ -30,6 +30,7 @@ import dayTwenty from './img/day20_pagesync.gif'
 import dayTwentyOne from './img/day21_async.gif'
 import dayTwentyTwo from './img/day22_grid.gif'
 import dayTwentyThree from './img/day23_clip.gif'
+import dayTwentyFour from './img/day24_dynamic.gif'
 import blank from './img/blank.png'
 
 class App extends Component {
@@ -180,10 +181,10 @@ class App extends Component {
       image: dayTwentyThree
     },{
       day: "DAY 24",
-      title: "Coming Soon",
-      description: "Stay tuned for more prototypes created with FramerX and React.js.",
-      githubLink: "https://github.com/hermy0211/framer30-code",
-      image: blank
+      title: "Dynamic Scroll Animation",
+      description: "onMove() comes in really handy when you're trying to get the scroll event data from the Scroll component. In this prototype, I'm using the y coordinate of the scroll to dynamically render the other components.",
+      githubLink: "https://github.com/hermy0211/framer30-code/tree/master/Day%2024%20Dynamic%20Scroll",
+      image: dayTwentyFour
     },{
       day: "DAY 25",
       title: "Coming Soon",
