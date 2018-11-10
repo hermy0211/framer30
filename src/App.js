@@ -31,6 +31,7 @@ import dayTwentyOne from './img/day21_async.gif'
 import dayTwentyTwo from './img/day22_grid.gif'
 import dayTwentyThree from './img/day23_clip.gif'
 import dayTwentyFour from './img/day24_dynamic.gif'
+import dayTwentyFive from './img/day25_messenger.gif'
 import blank from './img/blank.png'
 
 class App extends Component {
@@ -187,10 +188,10 @@ class App extends Component {
       image: dayTwentyFour
     },{
       day: "DAY 25",
-      title: "Coming Soon",
-      description: "Stay tuned for more prototypes created with FramerX and React.js.",
-      githubLink: "https://github.com/hermy0211/framer30-code",
-      image: blank
+      title: "Messenger Functionality",
+      description: "A lot of my prototypes rely on the Framer library and / or CSS. However, I know that the true benefit of getting to use React is when you update interfaces based on user input. Here's an example!",
+      githubLink: "https://github.com/hermy0211/framer30-code/tree/master/Day%2025%20Messenger",
+      image: dayTwentyFive
     }],
     dataSix: [{
       day: "DAY 26",
