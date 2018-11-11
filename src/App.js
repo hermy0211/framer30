@@ -33,6 +33,7 @@ import dayTwentyThree from './img/day23_clip.gif'
 import dayTwentyFour from './img/day24_dynamic.gif'
 import dayTwentyFive from './img/day25_messenger.gif'
 import dayTwentySix from './img/day26_autoplay.gif'
+import dayTwentySeven from './img/day27_photoedit.gif'
 import blank from './img/blank.png'
 
 class App extends Component {
@@ -202,10 +203,10 @@ class App extends Component {
       image: dayTwentySix
     },{
       day: "DAY 27",
-      title: "Coming Soon",
-      description: "Stay tuned for more prototypes created with FramerX and React.js.",
-      githubLink: "https://github.com/hermy0211/framer30-code",
-      image: blank
+      title: "Photo Editing Sliders",
+      description: "After seeing Benjamin Den Boer's awesome example on Medium, I had to try this one out. It uses the slider component to update the hue, saturation, and contrast of the photo accordingly.",
+      githubLink: "https://github.com/hermy0211/framer30-code/tree/master/Day%2027%20Photo%20Slider",
+      image: dayTwentySeven
     },{
       day: "DAY 28",
       title: "Coming Soon",
