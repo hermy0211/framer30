@@ -535,7 +535,7 @@ class App extends Component {
               <a href="mailto:hermy0211@naver.com" target="_blank" rel="noopener noreferrer" className="social">Email</a>
             </div>
           </div>
-          <button onClick={this.closeAbout} className="close" tabIndex="-1"><img src={close} alt="close" className="close-image"/></button>
+          <button onClick={this.closeAbout} className="close" tabIndex="-1"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50"><path d="M 33.889 15 L 35 16.111 L 26.111 25 L 35 33.889 L 33.889 35 L 25 26.111 L 16.111 35 L 15 33.889 L 23.889 25 L 15 16.111 L 16.111 15 L 25 23.889 Z" fill="rgba(0, 83, 255, 1.00)"/></svg></button>
         </div>
       </div>
     );
