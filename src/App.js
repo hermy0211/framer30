@@ -32,6 +32,7 @@ import dayTwentyTwo from './img/day22_grid.gif'
 import dayTwentyThree from './img/day23_clip.gif'
 import dayTwentyFour from './img/day24_dynamic.gif'
 import dayTwentyFive from './img/day25_messenger.gif'
+import dayTwentySix from './img/day26_autoplay.gif'
 import blank from './img/blank.png'
 
 class App extends Component {
@@ -195,10 +196,10 @@ class App extends Component {
     }],
     dataSix: [{
       day: "DAY 26",
-      title: "Coming Soon",
-      description: "Stay tuned for more prototypes created with FramerX and React.js.",
-      githubLink: "https://github.com/hermy0211/framer30-code",
-      image: blank
+      title: "Autoplay Videos",
+      description: "For this prototype, I took the YouTube player from the store and created an autoplay override through code. I used a page change interaction here, but it also works for scrolling.",
+      githubLink: "https://github.com/hermy0211/framer30-code/tree/master/Day%2026%20Autoplay",
+      image: dayTwentySix
     },{
       day: "DAY 27",
       title: "Coming Soon",
