@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/framer30/static/media/day10_favorites.8e6c0d87.gif"
   },
   {
-    "revision": "aabd178c971deee3f457",
+    "revision": "a9dadc90d146783581e5",
     "url": "/framer30/static/css/main.cbf888f6.chunk.css"
   },
   {
@@ -64,12 +64,12 @@ self.__precacheManifest = [
     "url": "/framer30/static/media/day08_cardflip.a86454f6.gif"
   },
   {
-    "revision": "ba5f281279a76ff6ee12a880dff04fad",
-    "url": "/framer30/static/media/day09_slider.ba5f2812.gif"
+    "revision": "0e73bea957c1df9291325786450c68a0",
+    "url": "/framer30/static/media/day09_slider.0e73bea9.gif"
   },
   {
-    "revision": "aabd178c971deee3f457",
-    "url": "/framer30/static/js/main.aabd178c.chunk.js"
+    "revision": "a9dadc90d146783581e5",
+    "url": "/framer30/static/js/main.a9dadc90.chunk.js"
   },
   {
     "revision": "1c198b4c3b79c4ed08945734b68d019e",
@@ -132,7 +132,7 @@ self.__precacheManifest = [
     "url": "/framer30/static/media/day25_messenger.51d6d604.gif"
   },
   {
-    "revision": "cd0c9e2da3203ef360455a5f9febc57d",
+    "revision": "5ada8aa0721852818d8cacbd079eb4bc",
     "url": "/framer30/index.html"
   }
 ];

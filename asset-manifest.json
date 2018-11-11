@@ -1,7 +1,7 @@
 {
   "main.css": "/framer30/static/css/main.cbf888f6.chunk.css",
-  "main.js": "/framer30/static/js/main.aabd178c.chunk.js",
-  "main.js.map": "/framer30/static/js/main.aabd178c.chunk.js.map",
+  "main.js": "/framer30/static/js/main.a9dadc90.chunk.js",
+  "main.js.map": "/framer30/static/js/main.a9dadc90.chunk.js.map",
   "static/js/1.87dcf4f4.chunk.js": "/framer30/static/js/1.87dcf4f4.chunk.js",
   "static/js/1.87dcf4f4.chunk.js.map": "/framer30/static/js/1.87dcf4f4.chunk.js.map",
   "runtime~main.js": "/framer30/static/js/runtime~main.9592f2ee.js",
@@ -18,7 +18,7 @@
   "static/media/day06_align.gif": "/framer30/static/media/day06_align.d98004df.gif",
   "static/media/day07_sticky.gif": "/framer30/static/media/day07_sticky.e064fd71.gif",
   "static/media/day08_cardflip.gif": "/framer30/static/media/day08_cardflip.a86454f6.gif",
-  "static/media/day09_slider.gif": "/framer30/static/media/day09_slider.ba5f2812.gif",
+  "static/media/day09_slider.gif": "/framer30/static/media/day09_slider.0e73bea9.gif",
   "static/media/day10_favorites.gif": "/framer30/static/media/day10_favorites.8e6c0d87.gif",
   "static/media/day11_tab.gif": "/framer30/static/media/day11_tab.1c198b4c.gif",
   "static/media/day12_cardscroll.gif": "/framer30/static/media/day12_cardscroll.d7c30110.gif",
@@ -37,6 +37,6 @@
   "static/media/day25_messenger.gif": "/framer30/static/media/day25_messenger.51d6d604.gif",
   "static/css/main.cbf888f6.chunk.css.map": "/framer30/static/css/main.cbf888f6.chunk.css.map",
   "index.html": "/framer30/index.html",
-  "precache-manifest.b0d26d9ecb93fba66c23c31d519c1684.js": "/framer30/precache-manifest.b0d26d9ecb93fba66c23c31d519c1684.js",
+  "precache-manifest.ca9ca5d9a987960b5e5a5f6d928d62b1.js": "/framer30/precache-manifest.ca9ca5d9a987960b5e5a5f6d928d62b1.js",
   "service-worker.js": "/framer30/service-worker.js"
 }
