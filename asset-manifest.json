@@ -1,9 +1,9 @@
 {
-  "main.css": "/framer30/static/css/main.cbf888f6.chunk.css",
-  "main.js": "/framer30/static/js/main.a9dadc90.chunk.js",
-  "main.js.map": "/framer30/static/js/main.a9dadc90.chunk.js.map",
-  "static/js/1.87dcf4f4.chunk.js": "/framer30/static/js/1.87dcf4f4.chunk.js",
-  "static/js/1.87dcf4f4.chunk.js.map": "/framer30/static/js/1.87dcf4f4.chunk.js.map",
+  "main.css": "/framer30/static/css/main.b8ecb025.chunk.css",
+  "main.js": "/framer30/static/js/main.c8d9b3d8.chunk.js",
+  "main.js.map": "/framer30/static/js/main.c8d9b3d8.chunk.js.map",
+  "static/js/1.0454b2ae.chunk.js": "/framer30/static/js/1.0454b2ae.chunk.js",
+  "static/js/1.0454b2ae.chunk.js.map": "/framer30/static/js/1.0454b2ae.chunk.js.map",
   "runtime~main.js": "/framer30/static/js/runtime~main.9592f2ee.js",
   "runtime~main.js.map": "/framer30/static/js/runtime~main.9592f2ee.js.map",
   "static/media/day17_todolist.gif": "/framer30/static/media/day17_todolist.6426afef.gif",
@@ -35,8 +35,8 @@
   "static/media/day23_clip.gif": "/framer30/static/media/day23_clip.7b155c64.gif",
   "static/media/day24_dynamic.gif": "/framer30/static/media/day24_dynamic.2a6cbc33.gif",
   "static/media/day25_messenger.gif": "/framer30/static/media/day25_messenger.51d6d604.gif",
-  "static/css/main.cbf888f6.chunk.css.map": "/framer30/static/css/main.cbf888f6.chunk.css.map",
+  "static/css/main.b8ecb025.chunk.css.map": "/framer30/static/css/main.b8ecb025.chunk.css.map",
   "index.html": "/framer30/index.html",
-  "precache-manifest.ca9ca5d9a987960b5e5a5f6d928d62b1.js": "/framer30/precache-manifest.ca9ca5d9a987960b5e5a5f6d928d62b1.js",
+  "precache-manifest.44db364de54d81abb7733e47b134f3be.js": "/framer30/precache-manifest.44db364de54d81abb7733e47b134f3be.js",
   "service-worker.js": "/framer30/service-worker.js"
 }
