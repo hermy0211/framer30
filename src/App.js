@@ -34,6 +34,7 @@ import dayTwentyFour from './img/day24_dynamic.gif'
 import dayTwentyFive from './img/day25_messenger.gif'
 import dayTwentySix from './img/day26_autoplay.gif'
 import dayTwentySeven from './img/day27_photoedit.gif'
+import dayTwentyEight from './img/day28_gooey.gif'
 import blank from './img/blank.png'
 
 class App extends Component {
@@ -209,10 +210,10 @@ class App extends Component {
       image: dayTwentySeven
     },{
       day: "DAY 28",
-      title: "Coming Soon",
-      description: "Stay tuned for more prototypes created with FramerX and React.js.",
-      githubLink: "https://github.com/hermy0211/framer30-code",
-      image: blank
+      title: "Gooey Menu",
+      description: "Creating a gooey menu is pretty easy. Just apply a blur filter along with a contrast filter onto the parent element of the objects, and watch your animations goo!",
+      githubLink: "https://github.com/hermy0211/framer30-code/tree/master/Day%2028%20Gooey",
+      image: dayTwentyEight
     },{
       day: "DAY 29",
       title: "Coming Soon",
