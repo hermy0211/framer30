@@ -1,9 +1,9 @@
 {
-  "main.css": "/framer30/static/css/main.4edf5fce.chunk.css",
-  "main.js": "/framer30/static/js/main.3d4ea86f.chunk.js",
-  "main.js.map": "/framer30/static/js/main.3d4ea86f.chunk.js.map",
-  "static/js/1.7820d785.chunk.js": "/framer30/static/js/1.7820d785.chunk.js",
-  "static/js/1.7820d785.chunk.js.map": "/framer30/static/js/1.7820d785.chunk.js.map",
+  "main.css": "/framer30/static/css/main.da46c591.chunk.css",
+  "main.js": "/framer30/static/js/main.da3d3369.chunk.js",
+  "main.js.map": "/framer30/static/js/main.da3d3369.chunk.js.map",
+  "static/js/1.4d966332.chunk.js": "/framer30/static/js/1.4d966332.chunk.js",
+  "static/js/1.4d966332.chunk.js.map": "/framer30/static/js/1.4d966332.chunk.js.map",
   "runtime~main.js": "/framer30/static/js/runtime~main.9592f2ee.js",
   "runtime~main.js.map": "/framer30/static/js/runtime~main.9592f2ee.js.map",
   "static/media/day18_stars.gif": "/framer30/static/media/day18_stars.eaeb9d12.gif",
@@ -37,8 +37,9 @@
   "static/media/day25_messenger.gif": "/framer30/static/media/day25_messenger.51d6d604.gif",
   "static/media/day26_autoplay.gif": "/framer30/static/media/day26_autoplay.ce75e822.gif",
   "static/media/day27_photoedit.gif": "/framer30/static/media/day27_photoedit.c3ddf2f3.gif",
-  "static/css/main.4edf5fce.chunk.css.map": "/framer30/static/css/main.4edf5fce.chunk.css.map",
+  "static/media/day28_gooey.gif": "/framer30/static/media/day28_gooey.204a071b.gif",
+  "static/css/main.da46c591.chunk.css.map": "/framer30/static/css/main.da46c591.chunk.css.map",
   "index.html": "/framer30/index.html",
-  "precache-manifest.e9bdd9b9843c794ad22c1d93ab9ec12d.js": "/framer30/precache-manifest.e9bdd9b9843c794ad22c1d93ab9ec12d.js",
+  "precache-manifest.a05d4237742e2275bdc8bedfd77dab00.js": "/framer30/precache-manifest.a05d4237742e2275bdc8bedfd77dab00.js",
   "service-worker.js": "/framer30/service-worker.js"
 }
