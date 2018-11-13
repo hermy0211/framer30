@@ -1,23 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "1c198b4c3b79c4ed08945734b68d019e",
-    "url": "/framer30/static/media/day11_tab.1c198b4c.gif"
+    "revision": "5b0dc44cdcbecf54fc7f26dff8f49a40",
+    "url": "/framer30/static/media/day13_calendar.5b0dc44c.gif"
   },
   {
-    "revision": "da3d3369d2400db9ae8f",
-    "url": "/framer30/static/css/main.da46c591.chunk.css"
+    "revision": "3b707626d9085ba6f018",
+    "url": "/framer30/static/css/main.16e5d8c1.chunk.css"
   },
   {
-    "revision": "4d96633256d62df2f0f9",
-    "url": "/framer30/static/js/1.4d966332.chunk.js"
+    "revision": "10762ff6f5ecd728f605",
+    "url": "/framer30/static/js/1.10762ff6.chunk.js"
   },
   {
     "revision": "9592f2ee4be639ae1fce",
     "url": "/framer30/static/js/runtime~main.9592f2ee.js"
-  },
-  {
-    "revision": "5271b25fb918bb80a78af05c62e63e66",
-    "url": "/framer30/static/media/blank.5271b25f.png"
   },
   {
     "revision": "59522ab635d3b54ea908d32d1824b874",
@@ -72,16 +68,16 @@ self.__precacheManifest = [
     "url": "/framer30/static/media/day10_favorites.8e6c0d87.gif"
   },
   {
-    "revision": "da3d3369d2400db9ae8f",
-    "url": "/framer30/static/js/main.da3d3369.chunk.js"
+    "revision": "1c198b4c3b79c4ed08945734b68d019e",
+    "url": "/framer30/static/media/day11_tab.1c198b4c.gif"
   },
   {
     "revision": "d7c30110911e6e7d7bebaf4bfa6327d2",
     "url": "/framer30/static/media/day12_cardscroll.d7c30110.gif"
   },
   {
-    "revision": "5b0dc44cdcbecf54fc7f26dff8f49a40",
-    "url": "/framer30/static/media/day13_calendar.5b0dc44c.gif"
+    "revision": "3b707626d9085ba6f018",
+    "url": "/framer30/static/js/main.3b707626.chunk.js"
   },
   {
     "revision": "de8faa2290eca4da339ae6708706fe28",
@@ -144,7 +140,15 @@ self.__precacheManifest = [
     "url": "/framer30/static/media/day28_gooey.204a071b.gif"
   },
   {
-    "revision": "5582174818b7633d9d7ecbc04087e1a5",
+    "revision": "1814bbcd80f4933b26b4d5b7f917560e",
+    "url": "/framer30/static/media/day29_timer.1814bbcd.gif"
+  },
+  {
+    "revision": "5271b25fb918bb80a78af05c62e63e66",
+    "url": "/framer30/static/media/blank.5271b25f.png"
+  },
+  {
+    "revision": "4ed9be98626d54ae5cfdce2fc9ba87a1",
     "url": "/framer30/index.html"
   }
 ];
