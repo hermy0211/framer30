@@ -35,6 +35,7 @@ import dayTwentyFive from './img/day25_messenger.gif'
 import dayTwentySix from './img/day26_autoplay.gif'
 import dayTwentySeven from './img/day27_photoedit.gif'
 import dayTwentyEight from './img/day28_gooey.gif'
+import dayTwentyNine from './img/day29_timer.gif'
 import blank from './img/blank.png'
 
 class App extends Component {
@@ -216,10 +217,10 @@ class App extends Component {
       image: dayTwentyEight
     },{
       day: "DAY 29",
-      title: "Coming Soon",
-      description: "Stay tuned for more prototypes created with FramerX and React.js.",
-      githubLink: "https://github.com/hermy0211/framer30-code",
-      image: blank
+      title: "Working Timer",
+      description: "This prototype demonstrates what React is really all about: updating states and rendering the view based on the state. I had a lot of fun putting this one together.",
+      githubLink: "https://github.com/hermy0211/framer30-code/tree/master/Day%2029%20Timer",
+      image: dayTwentyNine
     },{
       day: "DAY 30",
       title: "Coming Soon",
