@@ -36,6 +36,7 @@ import dayTwentySix from './img/day26_autoplay.gif'
 import dayTwentySeven from './img/day27_photoedit.gif'
 import dayTwentyEight from './img/day28_gooey.gif'
 import dayTwentyNine from './img/day29_timer.gif'
+import dayThirty from './img/day30_basics.gif'
 import blank from './img/blank.png'
 
 class App extends Component {
@@ -223,10 +224,10 @@ class App extends Component {
       image: dayTwentyNine
     },{
       day: "DAY 30",
-      title: "Coming Soon",
-      description: "Stay tuned for more prototypes created with FramerX and React.js.",
-      githubLink: "https://github.com/hermy0211/framer30-code",
-      image: blank
+      title: "Back to the Basics",
+      description: "After 30 days, I just wanted to go back to my first ever prototype in Framer X and see if I could build it again without any aid. And voilà! Done in less than an hour. Mission complete!",
+      githubLink: "https://github.com/hermy0211/framer30-code/tree/master/Day%2030%20Basics",
+      image: dayThirty
     }]
   }
 
