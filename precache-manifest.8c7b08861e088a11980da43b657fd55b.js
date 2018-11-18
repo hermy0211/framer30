@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/framer30/static/media/day13_calendar.5b0dc44c.gif"
   },
   {
-    "revision": "ab61b743b823efad0431",
-    "url": "/framer30/static/css/main.16e5d8c1.chunk.css"
+    "revision": "ffec89bf114a21010324",
+    "url": "/framer30/static/css/main.fb8c830b.chunk.css"
   },
   {
     "revision": "10762ff6f5ecd728f605",
@@ -76,8 +76,8 @@ self.__precacheManifest = [
     "url": "/framer30/static/media/day12_cardscroll.d7c30110.gif"
   },
   {
-    "revision": "ab61b743b823efad0431",
-    "url": "/framer30/static/js/main.ab61b743.chunk.js"
+    "revision": "ffec89bf114a21010324",
+    "url": "/framer30/static/js/main.ffec89bf.chunk.js"
   },
   {
     "revision": "de8faa2290eca4da339ae6708706fe28",
@@ -152,7 +152,7 @@ self.__precacheManifest = [
     "url": "/framer30/static/media/blank.5271b25f.png"
   },
   {
-    "revision": "462fbc99b0356381dd01127370488dad",
+    "revision": "33c3255843dbe9f0ada12ca4fcd6f848",
     "url": "/framer30/index.html"
   }
 ];
