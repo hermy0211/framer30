@@ -368,6 +368,8 @@
   position: absolute;
   right: 30px;
   top: 30px;
+  width: 50px;
+  height: 50px;
   transition: background-color 0.5s ease;
 }
 .about-layer .close svg {
@@ -375,6 +377,8 @@
   left: -2px;
   top: -2px;
   transition: fill 0.5s ease;
+  width: 50px;
+  height: 50px;
 }
 .about-layer .close svg path {
   fill: #0053FF;
