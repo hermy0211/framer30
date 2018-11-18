@@ -318,10 +318,13 @@
   font-size: 28px;
   margin: 0px 0px 50px 0px;
 }
-.about-layer .introduction .introduction-inner .credit {
+.about-layer .introduction .introduction-inner .credit-pc {
   font-weight: 200;
   font-size: 14px;
   margin: 0;
+}
+.about-layer .introduction .introduction-inner .credit-mobile {
+  display: none;
 }
 .about-layer .connect {
   position: absolute;

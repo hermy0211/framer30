@@ -126,13 +126,20 @@
   }
 
   .about-layer .introduction .introduction-inner .description {
-    font-size: 17px;
+    font-size: 14px;
     margin: 0px 0px 0px 0px;
     height: 96px;
   }
 
-  .about-layer .introduction .introduction-inner .credit {
+  .about-layer .introduction .introduction-inner .credit-pc {
     display: none;
+  }
+
+  .about-layer .introduction .introduction-inner .credit-mobile {
+    display: initial;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 0;
   }
 
   .iphone {

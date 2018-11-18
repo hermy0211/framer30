@@ -524,8 +524,11 @@ class App extends Component {
                 30 Framer X prototypes<br/>
                 throughout 30 days.
               </p>
-              <p className="credit">
+              <p className="credit-pc">
                 Inspired by Tony Jing
+              </p>
+              <p className="credit-mobile">
+                Please view on a PC for sources
               </p>
             </div>
           </div>
