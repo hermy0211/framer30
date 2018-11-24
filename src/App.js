@@ -261,6 +261,8 @@ class App extends Component {
   componentDidMount = () => {
     this.scrollAnimation()
     this.scrollInput()
+    document.getElementById("home").click()
+    this.resetHeight()
 
     let menuItems = document.querySelectorAll(".menu-item")
     let elements = [...menuItems]
@@ -350,8 +352,6 @@ class App extends Component {
 
     allSections.style.height = windowHeight*(sections.length)*5 + "px"
 
-    document.getElementById("home").click()
-
     // window.addEventListener('keydown', handleKeyPress)
     // window.addEventListener('mousewheel', handleMouseWheel, false)
     // window.addEventListener('DOMMouseScroll', handleMouseWheel, false)
@@ -387,6 +387,8 @@ class App extends Component {
   resetHeight = () => {
     window.addEventListener('resize', () => {
       this.setState((state)=>({windowHeight: window.innerHeight}))
+      this.scrollAnimation()
+      this.scrollInput()
     })
   }
 
