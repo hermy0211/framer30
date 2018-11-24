@@ -1,12 +1,10 @@
 import React, { Component } from 'react'
-import { Link, Element, animateScroll as scroll } from 'react-scroll'
+import { Link, Element } from 'react-scroll'
 import './App.css'
 import './Responsive.css'
 import Section from './Section'
-import cross from './img/cross.png'
 import mouse from './img/mouse.svg'
 import mousescroll from './img/mousescroll.svg'
-import close from './img/close.png'
 import dayOne from './img/day01_password.gif'
 import dayTwo from './img/day02_card.gif'
 import dayThree from './img/day03_circlemenu.gif'
@@ -37,7 +35,6 @@ import dayTwentySeven from './img/day27_photoedit.gif'
 import dayTwentyEight from './img/day28_gooey.gif'
 import dayTwentyNine from './img/day29_timer.gif'
 import dayThirty from './img/day30_basics.gif'
-import blank from './img/blank.png'
 
 class App extends Component {
   state = {
@@ -331,8 +328,6 @@ class App extends Component {
     let j = 0
     let windowHeight = this.state.windowHeight
     let windowWidth = this.state.windowWidth
-    let selectProjects = document.querySelectorAll(".project")
-    let projects = [...selectProjects]
 
     if (windowWidth <= 930) {
       windowHeight = this.state.windowHeight+200
@@ -346,7 +341,7 @@ class App extends Component {
 
     for (let innerSection of innerSections) {
       innerSection.style.top = windowHeight*j + "px"
-      if(j==4) {
+      if(j===4) {
         j=0
       } else {
         j++
@@ -399,7 +394,7 @@ class App extends Component {
     const popup = document.querySelector(".about-layer")
     const sections = document.querySelector(".sections")
     const mainSection = document.querySelector(".main-section")
-    const menus = document.querySelector(".menus")
+    // const menus = document.querySelector(".menus")
     popup.classList.add("show")
     sections.classList.add("hide")
     mainSection.classList.add("hide")
@@ -410,7 +405,7 @@ class App extends Component {
     const popup = document.querySelector(".about-layer")
     const sections = document.querySelector(".sections")
     const mainSection = document.querySelector(".main-section")
-    const menus = document.querySelector(".menus")
+    // const menus = document.querySelector(".menus")
     popup.classList.remove("show")
     sections.classList.remove("hide")
     mainSection.classList.remove("hide")
@@ -575,7 +570,7 @@ class App extends Component {
               <a href="mailto:hermy0211@naver.com" target="_blank" rel="noopener noreferrer" className="social">Email</a>
             </div>
           </div>
-          <button onClick={this.closeAbout} className="close" tabIndex="-1"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20px 20px"><path d="M 33.889 15 L 35 16.111 L 26.111 25 L 35 33.889 L 33.889 35 L 25 26.111 L 16.111 35 L 15 33.889 L 23.889 25 L 15 16.111 L 16.111 15 L 25 23.889 Z" fill="rgba(0, 83, 255, 1.00)"/></svg></button>
+          <button onClick={this.closeAbout} className="close" tabIndex="-1"><svg xmlns="http://www.w3.org/2000/svg"><path d="M 33.889 15 L 35 16.111 L 26.111 25 L 35 33.889 L 33.889 35 L 25 26.111 L 16.111 35 L 15 33.889 L 23.889 25 L 15 16.111 L 16.111 15 L 25 23.889 Z" fill="rgba(0, 83, 255, 1.00)"/></svg></button>
         </div>
       </div>
     );

@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import './App.css'
 import iphone from './img/iphone.svg'
 import medium from './img/medium.png'
-import mediumDisabled from './img/medium-disabled.png'
 import github from './img/github.png'
 
 class Section extends Component {
@@ -11,8 +10,8 @@ class Section extends Component {
 
     return (
       <div>
-      {Array.isArray(data) && (data.map((project) =>
-        <section className="inner-section">
+      {Array.isArray(data) && (data.map((project, index) =>
+        <section className="inner-section" key={index}>
           <div className="details display-none">
             <p className="day">{project.day}</p>
             <p className="title">{project.title}</p>
