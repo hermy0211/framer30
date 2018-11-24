@@ -422,12 +422,10 @@ class App extends Component {
           <section className="main first-inner-section">
             <div className="info">
               <div className="title">
-                <div className="framer">FramerX</div>
-                <img src={cross} alt="cross" className="cross"/>
-                <div className="react">React.js</div>
+                <div className="framer">30 Days of Framer X</div>
               </div>
               <div className="subtitle">
-                30 Prototypes in 30 Days
+                BUILT WITH FRAMER X AND REACT
               </div>
               <div className="tags">
                 <div className="tag">#Framer30</div>

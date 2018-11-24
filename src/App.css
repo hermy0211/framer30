@@ -67,25 +67,21 @@
 }
 /* Titles */
 .main .info .title {
-  font-size: 80px;
+  font-size: 72px;
   margin: auto;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .main .info .title .framer {
-  padding-right: 30px;
-  font-weight: 700;
-}
-.main .info .title .react {
-  padding-left: 30px;
   font-weight: 700;
 }
 .main .info .subtitle {
   font-weight: 400;
-  font-size: 34px;
-  margin-top: 7px;
-  letter-spacing: 2px;
+  font-size: 22px;
+  margin-top: 14px;
+  letter-spacing: 4px;
+  color: #DDD;
 }
 .main .info .tags {
   display: flex;
