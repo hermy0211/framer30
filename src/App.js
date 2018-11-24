@@ -398,18 +398,22 @@ class App extends Component {
   openAbout = () => {
     const popup = document.querySelector(".about-layer")
     const sections = document.querySelector(".sections")
+    const mainSection = document.querySelector(".main-section")
     const menus = document.querySelector(".menus")
     popup.classList.add("show")
     sections.classList.add("hide")
+    mainSection.classList.add("hide")
     // menus.classList.add("hide")
   }
 
   closeAbout = () => {
     const popup = document.querySelector(".about-layer")
     const sections = document.querySelector(".sections")
+    const mainSection = document.querySelector(".main-section")
     const menus = document.querySelector(".menus")
     popup.classList.remove("show")
     sections.classList.remove("hide")
+    mainSection.classList.remove("hide")
     // menus.classList.remove("hide")
   }
 
