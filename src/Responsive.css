@@ -4,8 +4,7 @@
 @media screen and (max-width: 930px) {
   .sidemenu,
   .copyright,
-  .inner-section .details .description,
-  .logo {
+  .inner-section .details .description {
     display: none;
   }
 
@@ -24,7 +23,7 @@
 
   .main .info .tags {
     justify-content: center;
-    margin-top: 40px;
+    margin-top: 20px;
   }
 
   .main .info .tags .tag {
@@ -35,7 +34,9 @@
     margin-right: 3px;
   }
 
-  .scroll .scrolltext {
+  .scrolltext {
+    bottom: 30px;
+    left: calc(50% - 46px);
     font-size: 14px;
     font-weight: 400;
   }
@@ -51,40 +52,15 @@
   }
 
   .about-layer {
-    width: calc(100% - 50px);
-    height: calc(100vh - 50px);
-    left: 25px;
-    top: 25px;
-  }
-
-  .about-layer .connect {
     width: 100%;
-    height: 50%;
-  }
-
-  .about-layer .connect .connect-inner {
-    width: 260px;
-    height: 180px;
-  }
-
-  .about-layer .connect .connect-inner .connect-title {
-    font-size: 20px;
-    margin: 0px 0px 20px 0px;
-  }
-
-  .about-layer .connect .connect-inner a {
-    font-size: 20px;
-    margin-bottom: 11px;
-  }
-
-  .about-layer button {
-    width: 30px;
-    height: 30px;
+    height: 100%;
+    left: 0px;
+    top: 0px;
   }
 
   .about-layer .close {
-    right: 35px;
-    top: 35px;
+    right: 30px;
+    top: 30px;
     width: 36px;
     height: 36px;
   }
@@ -92,29 +68,30 @@
   .about-layer .close svg {
     left: -9px;
     top: -9px;
-    width: 40px;
-    height: 40px;
+    width: 36px;
+    height: 36px;
   }
 
   .about-layer .introduction {
-    width: 100%;
-    height: 50%;
-    top: calc(50vh - 25px);
+    width: 100vw;
+    height: 65vh;
+    background-color: #FFFFFF;
+    color: #000000;
   }
 
   .about-layer .introduction .introduction-inner {
-    width: 260px;
+    width: 250px;
     height: 180px;
   }
 
   .about-layer .introduction .introduction-inner .title {
-    font-size: 20px;
+    font-size: 22px;
     margin: 0px 0px 24px 0px;
     height: 50px;
   }
 
   .about-layer .introduction .introduction-inner .description {
-    font-size: 14px;
+    font-size: 22px;
     margin: 0px 0px 0px 0px;
     height: 96px;
   }
@@ -123,25 +100,41 @@
     display: none;
   }
 
-  .about-layer .introduction .introduction-inner .credit-mobile {
-    display: initial;
-    font-weight: bold;
-    font-size: 14px;
-    margin: 0;
+  .about-layer .connect {
+    width: 100vw;
+    height: 35vh;
+    top: calc(50vh + 30px);
+    background-color: #FFFFFF;
+    color: #0053FF;
+  }
+
+  .about-layer .connect .connect-inner {
+    width: 250px;
+    height: 180px;
+  }
+
+  .about-layer .connect .connect-inner .connect-title {
+    display: none;
+  }
+
+  .about-layer .connect .connect-inner a {
+    font-size: 22px;
+    margin-bottom: 11px;
   }
 
   .iphone {
-    left: calc(50% - 130px);
-    margin-top: calc(50vh + 60px - 301px);
-    margin-bottom: calc(50vh + 60px - 221px);
+    width: 200px;
+    left: calc(50% - 100px);
+    margin-top: 114px;
   }
 
   .project {
     z-index: 10;
     top: 0;
-    margin-left: calc(50% - 114px);
-    margin-top: calc(50vh + 60px - 286px);
-    margin-bottom: calc(50vh + 60px - 226px);
+    width: 176px;
+    height: 379px;
+    margin-left: calc(50% - 88px);
+    margin-top: 126px;
   }
 
   .inner-section .details {
@@ -156,11 +149,18 @@
     padding-left: auto;
     padding-right: auto;
     font-size: 16px;
+    letter-spacing: 2px;
   }
 
   .inner-section .details .title {
-    font-size: 20px;
-    margin-top: 5px;
+    width: 260px;
+    margin: 6px auto 0 auto;
+    font-size: 28px;
+  }
+
+  .inner-section .details .medium,
+  .github {
+    margin-top: 450px;
   }
 }
 

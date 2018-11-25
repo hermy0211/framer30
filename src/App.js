@@ -78,7 +78,7 @@ class App extends Component {
     }],
     dataTwo: [{
       day: "DAY 06",
-      title: "Align Text Animation",
+      title: "Change Align Animation",
       description: "This was a very simple one to code. All you need to know is animate.ease! If the code seems okay but it is not working, try checking if any automatic position constraints have been applied.",
       githubLink: "https://github.com/hermy0211/framer30-code/tree/master/Day%2006%20Align",
       mediumLink: "https://uxplanet.org/30-days-of-framer-x-week-one-53644cb47cea",
@@ -92,21 +92,21 @@ class App extends Component {
       image: daySeven
     },{
       day: "DAY 08",
-      title: "Card Flip Interaction",
+      title: "Flipping Card Animation",
       description: "I decided to do something a bit more design oriented today, instead of focusing on complex code. Here is an interaction for a vocabulary app.",
       githubLink: "https://github.com/hermy0211/framer30-code/tree/master/Day%2008%20Card%20Flip",
       mediumLink: "https://uxplanet.org/30-days-of-framer-x-week-two-ee8749df028a",
       image: dayEight
     },{
       day: "DAY 09",
-      title: "Slider UI",
+      title: "Updating Interface with Slider",
       description: "For this prototype, I used the slider component from the store and changed it around a bit so my UI would stay in sync with it.",
       githubLink: "https://github.com/hermy0211/framer30-code/tree/master/Day%2009%20Slider",
       mediumLink: "https://uxplanet.org/30-days-of-framer-x-week-two-ee8749df028a",
       image: dayNine
     },{
       day: "DAY 10",
-      title: "Favorites",
+      title: "Delete from List Interaction",
       description: "Here's a simple list that 'deletes' the card when it is unliked. Please note that this prototype only works with the topmost card.",
       githubLink: "https://github.com/hermy0211/framer30-code/tree/master/Day%2010%20Favorites",
       mediumLink: "https://uxplanet.org/30-days-of-framer-x-week-two-ee8749df028a",
@@ -114,21 +114,21 @@ class App extends Component {
     }],
     dataThree: [{
       day: "DAY 11",
-      title: "Tab Menu Interaction",
+      title: "Change Tabs Interaction",
       description: "This prototype was created off of Jay Stakelon's awesome tutorial. It makes great use of the props value which reduces the amount of redundant code.",
       githubLink: "https://github.com/hermy0211/framer30-code/tree/master/Day%2011%20Tab",
       mediumLink: "https://uxplanet.org/30-days-of-framer-x-week-two-ee8749df028a",
       image: dayEleven
     },{
       day: "DAY 12",
-      title: "Card Scroll on Tap",
+      title: "Scroll Cards on Tap Interaction",
       description: "In this prototype, I practiced what I learned yesterday about using props. You can tap the left or right to scroll between the cards.",
       githubLink: "https://github.com/hermy0211/framer30-code/tree/master/Day%2012%20Card%20Scroll",
       mediumLink: "https://uxplanet.org/30-days-of-framer-x-week-two-ee8749df028a",
       image: dayTwelve
     },{
       day: "DAY 13",
-      title: "Calendar Animation",
+      title: "Dynamic Calender Animation",
       description: "Yesterday, Framer announced an all new Pages feature and I had to try it out! Turns out it's not just for card UI; it's incredibly helpful with creating sheet interactions too.",
       githubLink: "https://github.com/hermy0211/framer30-code/tree/master/Day%2013%20Calendar",
       mediumLink: "https://uxplanet.org/30-days-of-framer-x-week-two-ee8749df028a",
@@ -150,14 +150,14 @@ class App extends Component {
     }],
     dataFour: [{
       day: "DAY 16",
-      title: "Open Menu on Tap",
+      title: "Open Menu on Tap Interaction",
       description: "When you press onTap, you can pass in an (event: Point) to access the x, y coordinates of your mouse pointer. Here's a fun example using that functionality.",
       githubLink: "https://github.com/hermy0211/framer30-code/tree/master/Day%2016%20Long%20Tap",
       mediumLink: "https://uxplanet.org/30-days-of-framer-x-week-three-fe72d64ceac8",
       image: daySixteen
     },{
       day: "DAY 17",
-      title: "To-Do List",
+      title: "To-Do List Interaction",
       description: "I was so excited to find out you could dynamically update the current status based on which page you've chosen with onChangePage(event).",
       githubLink: "https://github.com/hermy0211/framer30-code/tree/master/Day%2017%20ToDo%20List",
       mediumLink: "https://uxplanet.org/30-days-of-framer-x-week-three-fe72d64ceac8",
@@ -171,7 +171,7 @@ class App extends Component {
       image: dayEighteen
     },{
       day: "DAY 19",
-      title: "Working Keyboard",
+      title: "Working Keyboard Component",
       description: "Today I created a working keyboard prototype for lowercase letters. I would love to come back to this one and add more functionality (i.e. capitals and symbols).",
       githubLink: "https://github.com/hermy0211/framer30-code/tree/master/Day%2019%20Keyboard",
       mediumLink: "https://uxplanet.org/30-days-of-framer-x-week-three-fe72d64ceac8",
@@ -186,14 +186,14 @@ class App extends Component {
     }],
     dataFive: [{
       day: "DAY 21",
-      title: "Animate on Load",
+      title: "Animate Elements on Load",
       description: "Ji Young Min came up with a great way to animate things when the page loads and shared it with the Framer group, so I decided to try it out. Works like a charm!",
       githubLink: "https://github.com/hermy0211/framer30-code/tree/master/Day%2021%20Animation%20on%20Load",
       mediumLink: "https://uxplanet.org/30-days-of-framer-x-week-three-fe72d64ceac8",
       image: dayTwentyOne
     },{
       day: "DAY 22",
-      title: "Flexible Grid Layout",
+      title: "Dynamic Grid Layout",
       description: "Inspired by Google Drive's flexible grid layout, I wanted to see if I could recreate it with plain React. I think it would be cool if Framer X had a way to access different <divs> as frames right inside the program.",
       githubLink: "https://github.com/hermy0211/framer30-code/tree/master/Day%2022%20Grid",
       mediumLink: "https://uxplanet.org/30-days-of-framer-x-final-week-d5d1f923cbc1",
@@ -222,7 +222,7 @@ class App extends Component {
     }],
     dataSix: [{
       day: "DAY 26",
-      title: "Autoplay Videos",
+      title: "Video Autoplay Functionality",
       description: "For this prototype, I took the YouTube player from the store and created an autoplay override through code. I used a page change interaction here, but it also works for scrolling.",
       githubLink: "https://github.com/hermy0211/framer30-code/tree/master/Day%2026%20Autoplay",
       mediumLink: "https://uxplanet.org/30-days-of-framer-x-final-week-d5d1f923cbc1",
@@ -236,21 +236,21 @@ class App extends Component {
       image: dayTwentySeven
     },{
       day: "DAY 28",
-      title: "Gooey Menu",
+      title: "Gooey Menu Animation",
       description: "Creating a gooey menu is pretty easy. Just apply a blur filter along with a contrast filter onto the parent element of the objects, and watch your animations goo!",
       githubLink: "https://github.com/hermy0211/framer30-code/tree/master/Day%2028%20Gooey",
       mediumLink: "https://uxplanet.org/30-days-of-framer-x-final-week-d5d1f923cbc1",
       image: dayTwentyEight
     },{
       day: "DAY 29",
-      title: "Working Timer",
+      title: "Fully Functional Timer",
       description: "This prototype demonstrates what React is really all about: updating states and rendering the view based on the state. I had a lot of fun putting this one together.",
       githubLink: "https://github.com/hermy0211/framer30-code/tree/master/Day%2029%20Timer",
       mediumLink: "https://uxplanet.org/30-days-of-framer-x-final-week-d5d1f923cbc1",
       image: dayTwentyNine
     },{
       day: "DAY 30",
-      title: "Back to the Basics",
+      title: "Coming Around Full Circle",
       description: "After 30 days, I just wanted to go back to my first ever prototype in Framer X and see if I could build it again without any aid. And voilà! Done in less than an hour. Mission complete!",
       githubLink: "https://github.com/hermy0211/framer30-code/tree/master/Day%2030%20Basics",
       mediumLink: "https://uxplanet.org/30-days-of-framer-x-final-week-d5d1f923cbc1",
@@ -332,10 +332,9 @@ class App extends Component {
     let windowWidth = this.state.windowWidth
 
     if (windowWidth <= 930) {
-      windowHeight = this.state.windowHeight+200
+      windowHeight = this.state.windowHeight+120
     }
 
-    // Added +200 for regular scrolling
     for (let section of sections) {
       section.style.top = windowHeight+windowHeight*(i)*5+120 + "px"
       i++
@@ -385,10 +384,13 @@ class App extends Component {
   }
 
   resetHeight = () => {
+    let windowWidth = this.state.windowWidth
     window.addEventListener('resize', () => {
-      this.setState((state)=>({windowHeight: window.innerHeight}))
-      this.scrollAnimation()
-      this.scrollInput()
+      if (windowWidth > 930) {
+        this.setState((state)=>({windowHeight: window.innerHeight}))
+        this.scrollAnimation()
+        this.scrollInput()
+      }
     })
   }
 
@@ -396,10 +398,12 @@ class App extends Component {
     const popup = document.querySelector(".about-layer")
     const sections = document.querySelector(".sections")
     const mainSection = document.querySelector(".main-section")
+    const about = document.querySelector(".about")
     // const menus = document.querySelector(".menus")
     popup.classList.add("show")
     sections.classList.add("hide")
     mainSection.classList.add("hide")
+    about.classList.add("hide")
     // menus.classList.add("hide")
   }
 
@@ -407,10 +411,12 @@ class App extends Component {
     const popup = document.querySelector(".about-layer")
     const sections = document.querySelector(".sections")
     const mainSection = document.querySelector(".main-section")
+    const about = document.querySelector(".about")
     // const menus = document.querySelector(".menus")
     popup.classList.remove("show")
     sections.classList.remove("hide")
     mainSection.classList.remove("hide")
+    about.classList.remove("hide")
     // menus.classList.remove("hide")
   }
 
@@ -438,8 +444,8 @@ class App extends Component {
                   <img src={mouse} className="mousecircle" alt="mouse"/>
                   <img src={mousescroll} className="mousescroll" alt="mouse wheel"/>
                 </div>
-                <div className="scrolltext">Scroll Down</div>
               </div>
+              <div className="scrolltext">Scroll Down</div>
             </div>
           </section>
         </Element>
@@ -556,9 +562,6 @@ class App extends Component {
               <p className="credit-pc">
                 Inspired by Tony Jing
               </p>
-              <p className="credit-mobile">
-                Please view on a PC for sources
-              </p>
             </div>
           </div>
           <div className="connect">
@@ -572,7 +575,7 @@ class App extends Component {
               <a href="mailto:hermy0211@naver.com" target="_blank" rel="noopener noreferrer" className="social">Email</a>
             </div>
           </div>
-          <button onClick={this.closeAbout} className="close" tabIndex="-1"><svg xmlns="http://www.w3.org/2000/svg"><path d="M 33.889 15 L 35 16.111 L 26.111 25 L 35 33.889 L 33.889 35 L 25 26.111 L 16.111 35 L 15 33.889 L 23.889 25 L 15 16.111 L 16.111 15 L 25 23.889 Z" fill="rgba(0, 83, 255, 1.00)"/></svg></button>
+          <button onClick={this.closeAbout} className="close" tabIndex="-1"><svg xmlns="http://www.w3.org/2000/svg" viewport="15 15 30 30"><path d="M 33.889 15 L 35 16.111 L 26.111 25 L 35 33.889 L 33.889 35 L 25 26.111 L 16.111 35 L 15 33.889 L 23.889 25 L 15 16.111 L 16.111 15 L 25 23.889 Z" fill="rgba(0, 83, 255, 1.00)"/></svg></button>
         </div>
       </div>
     );
