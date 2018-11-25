@@ -50,7 +50,7 @@ class App extends Component {
     },{
       day: "DAY 02",
       title: "Save Card Interaction",
-      description: "This prototype replicates the interaction of when a card is swiped down and 'saved' to the deck. I tried to put extra care into creating smooth, easing in / out animations for the information components.",
+      description: "This prototype replicates the interaction of when a card is swiped down and 'saved' to the deck. It is built using the undocumented 'Draggable' component from the Framer Library.",
       githubLink: "https://github.com/hermy0211/framer30-code/tree/master/Day%2002%20Cards",
       mediumLink: "https://uxplanet.org/30-days-of-framer-x-week-one-53644cb47cea",
       image: dayTwo
