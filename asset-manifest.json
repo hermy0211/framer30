@@ -1,7 +1,7 @@
 {
   "main.css": "/framer30/static/css/main.2451acaa.chunk.css",
-  "main.js": "/framer30/static/js/main.2bbe9f88.chunk.js",
-  "main.js.map": "/framer30/static/js/main.2bbe9f88.chunk.js.map",
+  "main.js": "/framer30/static/js/main.6a3aca69.chunk.js",
+  "main.js.map": "/framer30/static/js/main.6a3aca69.chunk.js.map",
   "static/js/1.5f2322c0.chunk.js": "/framer30/static/js/1.5f2322c0.chunk.js",
   "static/js/1.5f2322c0.chunk.js.map": "/framer30/static/js/1.5f2322c0.chunk.js.map",
   "runtime~main.js": "/framer30/static/js/runtime~main.9592f2ee.js",
@@ -10,7 +10,7 @@
   "static/media/iphone.svg": "/framer30/static/media/iphone.59522ab6.svg",
   "static/media/mousescroll.svg": "/framer30/static/media/mousescroll.d955d3b0.svg",
   "static/media/day01_password.gif": "/framer30/static/media/day01_password.7a0cc23a.gif",
-  "static/media/day02_card.gif": "/framer30/static/media/day02_card.b590f575.gif",
+  "static/media/day02_card.gif": "/framer30/static/media/day02_card.f4a2d244.gif",
   "static/media/day03_circlemenu.gif": "/framer30/static/media/day03_circlemenu.4d9bf7d6.gif",
   "static/media/day04_hearts.gif": "/framer30/static/media/day04_hearts.d3822122.gif",
   "static/media/day05_safari.gif": "/framer30/static/media/day05_safari.75a3d8bb.gif",
@@ -41,6 +41,6 @@
   "static/media/day30_basics.gif": "/framer30/static/media/day30_basics.d21fa77b.gif",
   "static/css/main.2451acaa.chunk.css.map": "/framer30/static/css/main.2451acaa.chunk.css.map",
   "index.html": "/framer30/index.html",
-  "precache-manifest.98ee025a8d75dcf99c609d7993d3202b.js": "/framer30/precache-manifest.98ee025a8d75dcf99c609d7993d3202b.js",
+  "precache-manifest.e9bbd149dab327aa9c6243fe484846de.js": "/framer30/precache-manifest.e9bbd149dab327aa9c6243fe484846de.js",
   "service-worker.js": "/framer30/service-worker.js"
 }
