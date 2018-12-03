@@ -570,7 +570,7 @@ class App extends Component {
                 Connect with Me
               </p>
               <a href="https://www.linkedin.com/in/annesohyunlee/" target="_blank" rel="noopener noreferrer" className="social">Linkedin</a>
-              <a href="https://www.instagram.com/coding.designer.__/" target="_blank" rel="noopener noreferrer" className="social">Instagram</a>
+              <a href="https://www.instagram.com/anne_ux/" target="_blank" rel="noopener noreferrer" className="social">Instagram</a>
               <a href="https://medium.com/@annelee_22736" target="_blank" rel="noopener noreferrer" className="social">Medium</a>
               <a href="mailto:hermy0211@naver.com" target="_blank" rel="noopener noreferrer" className="social">Email</a>
             </div>
