@@ -1,7 +1,7 @@
 {
   "main.css": "/framer30/static/css/main.96d9f4ee.chunk.css",
-  "main.js": "/framer30/static/js/main.4fbadfab.chunk.js",
-  "main.js.map": "/framer30/static/js/main.4fbadfab.chunk.js.map",
+  "main.js": "/framer30/static/js/main.746c0cd2.chunk.js",
+  "main.js.map": "/framer30/static/js/main.746c0cd2.chunk.js.map",
   "static/js/1.5f2322c0.chunk.js": "/framer30/static/js/1.5f2322c0.chunk.js",
   "static/js/1.5f2322c0.chunk.js.map": "/framer30/static/js/1.5f2322c0.chunk.js.map",
   "runtime~main.js": "/framer30/static/js/runtime~main.9592f2ee.js",
@@ -41,6 +41,6 @@
   "static/media/day30_basics.gif": "/framer30/static/media/day30_basics.d21fa77b.gif",
   "static/css/main.96d9f4ee.chunk.css.map": "/framer30/static/css/main.96d9f4ee.chunk.css.map",
   "index.html": "/framer30/index.html",
-  "precache-manifest.15a8dc6f5d79be3c5a16b5c23b778b65.js": "/framer30/precache-manifest.15a8dc6f5d79be3c5a16b5c23b778b65.js",
+  "precache-manifest.a9c00059dadbeb5e9735c50d8200f2cb.js": "/framer30/precache-manifest.a9c00059dadbeb5e9735c50d8200f2cb.js",
   "service-worker.js": "/framer30/service-worker.js"
 }
